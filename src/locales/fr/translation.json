@@ -93,11 +93,84 @@
     "subtitle": "Le Catalogue",
     "title": "NOS LIQUEURS",
     "desc": "Du Trebbiano d'Abruzzes combiné à la racine de Gentiane Lutea, à la douceur du Ratafià. Chaque bouteille renferme l'histoire de notre territoire.",
-    "items": {
-      "item1": "Gentiane Barrique",
-      "item2": "Ratafià Traditionnel",
-      "item3": "Liqueur de Réglisse"
+    "labels": {
+      "gradazione": "Degré",
+      "formati": "Formats",
+      "ingredienti": "Ingrédients",
+      "degustazione": "Dégustation"
     },
+    "items": [
+      {
+        "id": "genziana",
+        "name": "Gentiane",
+        "title": "Liqueur typique des Abruzzes à base de Trebbiano et de racine de gentiane",
+        "desc": "La gentiane est l'un des symboles les plus authentiques de la tradition des Abruzzes. Cette liqueur est née de l'infusion de racine de Gentiana Lutea dans du vin Trebbiano d'Abruzzes, laissé mûrir lentement dans des barriques de chêne pour développer profondeur et complexité.",
+        "gradazione": "22% vol",
+        "formati": "10 cl / 20 cl / 50 cl / 70 cl / 2 L",
+        "ingredienti": "Trebbiano d'Abruzzes, alcool, racine de gentiane, sucre (contient des sulfites)",
+        "degustazione": "Profil amer élégant, avec une base vineuse aromatique et une fin persistante. Servir froid (6–10°C), idéal comme digestif ou accompagné de fromages affinés."
+      },
+      {
+        "id": "liquirizia",
+        "name": "Réglisse",
+        "title": "Intensité pure à partir de réglisse sélectionnée",
+        "desc": "Une liqueur décisive et enveloppante, obtenue à partir d'extraits concentrés de réglisse. Parfait pour ceux qui recherchent un goût fort et reconnaissable.",
+        "gradazione": "~25–30% vol",
+        "formati": "10 cl / 20 cl / 50 cl / 70 cl / 2 L",
+        "ingredienti": "Alcool, eau, sucre, extrait de réglisse",
+        "degustazione": "Dense, balsamique, avec un équilibre entre douceur et amertume. Excellent froid ou avec de la glace, également parfait comme fin de repas prononcée."
+      },
+      {
+        "id": "ratafia",
+        "name": "Ratafià",
+        "title": "Tradition des Abruzzes entre vin et fruits",
+        "desc": "Liqueur historique de la culture paysanne, élaborée avec du vin rouge et des fruits, selon un processus artisanal qui valorise la simplicité des matières premières.",
+        "gradazione": "~20–25% vol",
+        "formati": "10 cl / 20 cl / 50 cl / 70 cl / 2 L",
+        "ingredienti": "Vin rouge, fruits (griottes/cerises noires), sucre, alcool",
+        "degustazione": "Moelleux et rond, with notes de cerise et d'amande. Parfait avec des desserts secs ou comme liqueur de méditation."
+      },
+      {
+        "id": "papavero",
+        "name": "Coquelicot",
+        "title": "Un goût hors du commun",
+        "desc": "Une proposition originale qui allie délicatesse floral et caractère artisanal. Conçu pour ceux qui recherchent quelque chose de différent des liqueurs classiques.",
+        "gradazione": "~20–25% vol",
+        "formati": "10 cl / 20 cl / 50 cl / 70 cl / 2 L",
+        "ingredienti": "Alcool, eau, sucre, infusion de coquelicot",
+        "degustazione": "Léger, aromatique, avec des notes florales et une fin douce. Servir froid, idéal aussi comme idée cadeau raffinée."
+      },
+      {
+        "id": "amaro",
+        "name": "Amaro aux Herbes",
+        "title": "Digestif naturel à base d'herbes sélectionnées",
+        "desc": "Un amaro classique réinterprété dans une clé artisanale, avec un mélange équilibré de botaniques.",
+        "gradazione": "~22–30% vol",
+        "formati": "10 cl / 20 cl / 50 cl / 70 cl / 2 L",
+        "ingredienti": "Alcool, eau, sucre, herbes aromatiques",
+        "degustazione": "Herbacé, légèrement épicé, avec une fin amère propre. Servir froid ou avec des glaçons."
+      },
+      {
+        "id": "arancello",
+        "name": "Arancello",
+        "title": "Fraîcheur naturelle d'un agrume",
+        "desc": "Liqueur obtenue par infusion d'écorces d'orange, exprimant toute la vivacité des agrumes.",
+        "gradazione": "~25–30% vol",
+        "formati": "10 cl / 20 cl / 50 cl / 70 cl / 2 L",
+        "ingredienti": "Alcool, eau, sucre, écorces d'orange",
+        "degustazione": "Frais, parfumé et légèrement amer. Servir très froid, idéal après les repas ou comme apéritif léger."
+      },
+      {
+        "id": "limoncello",
+        "name": "Limoncello",
+        "title": "Classique indémodable de la tradition italienne",
+        "desc": "Liqueur obtenue à partir d'écorces de citron sélectionnées, traitées pour garder intacte la composante aromatique.",
+        "gradazione": "~25–30% vol",
+        "formati": "10 cl / 20 cl / 50 cl / 70 cl / 2 L",
+        "ingredienti": "Alcool, eau, sucre, écorces de citron",
+        "degustazione": "Intense et citronné, avec une douceur équilibrée. Servir glacé, parfait pour finir le repas."
+      }
+    ],
     "cta": "Télécharger le Catalogue Complet"
   },
   "bomboniere": {

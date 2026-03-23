@@ -85,11 +85,84 @@
     "subtitle": "The Catalog",
     "title": "OUR LIQUEURS",
     "desc": "From Trebbiano d'Abruzzo combined with Gentiana Lutea root, to the softness of Ratafià. Every bottle contains the history of our territory.",
-    "items": {
-      "item1": "Barrique Gentian",
-      "item2": "Traditional Ratafià",
-      "item3": "Licorice Liqueur"
+    "labels": {
+      "gradazione": "ABV",
+      "formati": "Formats",
+      "ingredienti": "Ingredients",
+      "degustazione": "Tasting"
     },
+    "items": [
+      {
+        "id": "genziana",
+        "name": "Gentian",
+        "title": "Typical Abruzzo liqueur from Trebbiano and gentian root",
+        "desc": "Gentian is one of the most authentic symbols of the Abruzzo tradition. This liqueur is born from the infusion of Gentiana Lutea root in Trebbiano d'Abruzzo wine, left to mature slowly in oak barriques to develop depth and complexity.",
+        "gradazione": "22% vol",
+        "formati": "10 cl / 20 cl / 50 cl / 70 cl / 2 L",
+        "ingredienti": "Trebbiano d'Abruzzo, alcohol, gentian root, sugar (contains sulfites)",
+        "degustazione": "Elegant bitter profile, with a vinous-aromatic base and a persistent finish. Serve cold (6–10°C), ideal as a digestive or paired with aged cheeses."
+      },
+      {
+        "id": "liquirizia",
+        "name": "Licorice",
+        "title": "Pure intensity from selected licorice",
+        "desc": "A decisive and enveloping liqueur, obtained from concentrated licorice extracts. Perfect for those looking for a strong and recognizable taste.",
+        "gradazione": "~25–30% vol",
+        "formati": "10 cl / 20 cl / 50 cl / 70 cl / 2 L",
+        "ingredienti": "Alcohol, water, sugar, licorice extract",
+        "degustazione": "Dense, balsamic, with a balance between sweetness and bitterness. Excellent cold or with ice, also perfect as a strong end-of-meal drink."
+      },
+      {
+        "id": "ratafia",
+        "name": "Ratafià",
+        "title": "Abruzzo tradition between wine and fruit",
+        "desc": "Historic liqueur of peasant culture, made with red wine and fruit, according to an artisanal process that values the simplicity of the raw materials.",
+        "gradazione": "~20–25% vol",
+        "formati": "10 cl / 20 cl / 50 cl / 70 cl / 2 L",
+        "ingredienti": "Red wine, fruit (sour cherries/black cherries), sugar, alcohol",
+        "degustazione": "Soft and round, with notes of cherry and almond. Perfect with dry desserts or as a meditation liqueur."
+      },
+      {
+        "id": "papavero",
+        "name": "Poppy",
+        "title": "A taste outside the box",
+        "desc": "An original proposal that combines floral delicacy and artisanal character. Designed for those looking for something different from classic liqueurs.",
+        "gradazione": "~20–25% vol",
+        "formati": "10 cl / 20 cl / 50 cl / 70 cl / 2 L",
+        "ingredienti": "Alcohol, water, sugar, poppy infusion",
+        "degustazione": "Light, aromatic, with floral notes and a soft finish. Serve cold, also ideal as a refined gift idea."
+      },
+      {
+        "id": "amaro",
+        "name": "Herbal Amaro",
+        "title": "Natural digestive from selected herbs",
+        "desc": "A classic amaro reinterpreted in an artisanal key, with a balanced mix of botanicals.",
+        "gradazione": "~22–30% vol",
+        "formati": "10 cl / 20 cl / 50 cl / 70 cl / 2 L",
+        "ingredienti": "Alcohol, water, sugar, aromatic herbs",
+        "degustazione": "Herbaceous, slightly spicy, with a clean bitter finish. Serve cold or with ice."
+      },
+      {
+        "id": "arancello",
+        "name": "Arancello",
+        "title": "Natural citrus freshness",
+        "desc": "Liqueur obtained from the infusion of orange peels, expressing all the vivacity of citrus fruits.",
+        "gradazione": "~25–30% vol",
+        "formati": "10 cl / 20 cl / 50 cl / 70 cl / 2 L",
+        "ingredienti": "Alcohol, water, sugar, orange peels",
+        "degustazione": "Fresh, fragrant, and slightly bitter. Serve very cold, ideal after meals or as a light aperitif."
+      },
+      {
+        "id": "limoncello",
+        "name": "Limoncello",
+        "title": "Timeless classic of the Italian tradition",
+        "desc": "Liqueur obtained from selected lemon peels, processed to keep the aromatic component intact.",
+        "gradazione": "~25–30% vol",
+        "formati": "10 cl / 20 cl / 50 cl / 70 cl / 2 L",
+        "ingredienti": "Alcohol, water, sugar, lemon peels",
+        "degustazione": "Intense and citrusy, with balanced sweetness. Serve ice-cold, perfect as an end-of-meal drink."
+      }
+    ],
     "cta": "Download Full Catalog"
   },
   "bomboniere": {

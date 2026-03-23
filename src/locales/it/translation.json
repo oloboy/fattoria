@@ -85,11 +85,84 @@
     "subtitle": "Il Catalogo",
     "title": "I NOSTRI LIQUORI",
     "desc": "Dal Trebbiano d'Abruzzo unito alla radice di Genziana Lutea, fino alla morbidezza della Ratafià. Ogni bottiglia racchiude la storia del nostro territorio.",
-    "items": {
-      "item1": "Genziana Barrique",
-      "item2": "Ratafià Tradizionale",
-      "item3": "Liquore alla Liquirizia"
+    "labels": {
+      "gradazione": "Gradazione",
+      "formati": "Formati",
+      "ingredienti": "Ingredienti",
+      "degustazione": "Degustazione"
     },
+    "items": [
+      {
+        "id": "genziana",
+        "name": "Genziana",
+        "title": "Liquore tipico d'Abruzzo da Trebbiano e radice di genziana",
+        "desc": "La Genziana è uno dei simboli più autentici della tradizione abruzzese. Questo liquore nasce dall'infusione di radice di Genziana Lutea in vino Trebbiano d'Abruzzo, lasciato maturare lentamente in barrique di rovere per sviluppare profondità e complessità.",
+        "gradazione": "22% vol",
+        "formati": "10 cl / 20 cl / 50 cl / 70 cl / 2 L",
+        "ingredienti": "Trebbiano d'Abruzzo, alcool, radice di genziana, zucchero (contiene solfiti)",
+        "degustazione": "Profilo amaricante elegante, con base vinoso-aromatica e finale persistente. Servire freddo (6–10°C), ideale come digestivo o abbinato a formaggi stagionati."
+      },
+      {
+        "id": "liquirizia",
+        "name": "Liquirizia",
+        "title": "Intensità pura da liquirizia selezionata",
+        "desc": "Un liquore deciso e avvolgente, ottenuto da estratti concentrati di liquirizia. Perfetto per chi cerca un gusto forte e riconoscibile.",
+        "gradazione": "~25–30% vol",
+        "formati": "10 cl / 20 cl / 50 cl / 70 cl / 2 L",
+        "ingredienti": "Alcool, acqua, zucchero, estratto di liquirizia",
+        "degustazione": "Denso, balsamico, con equilibrio tra dolcezza e amaro. Ottimo freddo o con ghiaccio, perfetto anche come fine pasto deciso."
+      },
+      {
+        "id": "ratafia",
+        "name": "Ratafià",
+        "title": "Tradizione abruzzese tra vino e frutta",
+        "desc": "Liquore storico della cultura contadina, realizzato con vino rosso e frutta, secondo una lavorazione artigianale che valorizza la semplicità delle materie prime.",
+        "gradazione": "~20–25% vol",
+        "formati": "10 cl / 20 cl / 50 cl / 70 cl / 2 L",
+        "ingredienti": "Vino rosso, frutta (amarene/visciole), zucchero, alcool",
+        "degustazione": "Morbido e rotondo, con note di ciliegia e mandorla. Perfetto con dolci secchi o come liquore da meditazione."
+      },
+      {
+        "id": "papavero",
+        "name": "Papavero",
+        "title": "Un gusto fuori dagli schemi",
+        "desc": "Una proposta originale che unisce delicatezza floreale e carattere artigianale. Pensato per chi cerca qualcosa di diverso dai liquori classici.",
+        "gradazione": "~20–25% vol",
+        "formati": "10 cl / 20 cl / 50 cl / 70 cl / 2 L",
+        "ingredienti": "Alcool, acqua, zucchero, infusione di papavero",
+        "degustazione": "Leggero, aromatico, con note floreali e finale morbido. Servire freddo, ideale anche come idea regalo ricercata."
+      },
+      {
+        "id": "amaro",
+        "name": "Amaro alle Erbe",
+        "title": "Digestivo naturale da erbe selezionate",
+        "desc": "Un amaro classico reinterpretato in chiave artigianale, con un mix equilibrato di botaniche.",
+        "gradazione": "~22–30% vol",
+        "formati": "10 cl / 20 cl / 50 cl / 70 cl / 2 L",
+        "ingredienti": "Alcool, acqua, zucchero, erbe aromatiche",
+        "degustazione": "Erbaceo, leggermente speziato, con finale amaricante pulito. Servire freddo o con ghiaccio."
+      },
+      {
+        "id": "arancello",
+        "name": "Arancello",
+        "title": "Freschezza agrumata naturale",
+        "desc": "Liquore ottenuto da infusione di scorze d'arancia, che esprime tutta la vivacità degli agrumi.",
+        "gradazione": "~25–30% vol",
+        "formati": "10 cl / 20 cl / 50 cl / 70 cl / 2 L",
+        "ingredienti": "Alcool, acqua, zucchero, scorze di arancia",
+        "degustazione": "Fresco, profumato e leggermente amarognolo. Servire molto freddo, ideale dopo i pasti o come aperitivo leggero."
+      },
+      {
+        "id": "limoncello",
+        "name": "Limoncello",
+        "title": "Classico intramontabile della tradizione italiana",
+        "desc": "Liquore ottenuto da scorze di limone selezionate, lavorate per mantenere intatta la componente aromatica.",
+        "gradazione": "~25–30% vol",
+        "formati": "10 cl / 20 cl / 50 cl / 70 cl / 2 L",
+        "ingredienti": "Alcool, acqua, zucchero, scorze di limone",
+        "degustazione": "Intenso e agrumato, con dolcezza equilibrata. Servire ghiacciato, perfetto come fine pasto."
+      }
+    ],
     "cta": "Scarica il Catalogo Completo"
   },
   "bomboniere": {
