@@ -15,7 +15,7 @@
   },
   "hero": {
     "subtitle": "Depuis 1916 • Teramo, Abruzzes",
-    "titlePrefix": "L'Abruzzo est la",
+    "titlePrefix": "L'Abruzzo est",
     "titleHighlight": "saveur.",
     "descriptionLine1": "L'essence liquide d'une terre âpre et généreuse.",
     "descriptionLine2": "Tradition, patience et nature capturées dans chaque goutte.",
@@ -47,7 +47,15 @@
       "text": "> INITIALISATION...\n> Macération: ACTIVE\n> Arômes: ZÉRO DÉTECTÉ\n> Repos: EN BARRIQUE\n> Filtration: ARTISANALE\n> STATUT: PRÊT"
     },
     "scheduler": {
-      "days": ["D", "L", "M", "M", "J", "V", "S"],
+      "days": [
+        "D",
+        "L",
+        "M",
+        "M",
+        "J",
+        "V",
+        "S"
+      ],
       "bookDate": "Réserver Date"
     },
     "cards": {
