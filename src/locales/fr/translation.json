@@ -26,11 +26,11 @@
     "title": "L'EXCELLENCE DE LA NATURE",
     "quote": "\"Nous produisons des liqueurs à l'ancienne : avec le temps nécessaire pour que la terre libère son secret le plus profond.\"",
     "features": {
-      "abruzzo": "Abruzzes",
-      "vino": "Vin",
-      "legno": "Bois",
-      "lentezza": "Lenteur",
-      "artigianato": "Artisanat"
+      "abruzzo": { "name": "Abruzzes", "desc": "Entre le Gran Sasso et l'Adriatique, nous capturons l'âme d'une terre âpre et généreuse." },
+      "vino": { "name": "Vin", "desc": "Le Trebbiano d'Abruzzes est le cœur battant qui accueille et transforme chaque racine en poésie." },
+      "legno": { "name": "Bois", "desc": "Les barriques de chêne gardent le secret du temps, apportant douceur et noblesse." },
+      "lentezza": { "name": "Lenteur", "desc": "Plus de 40 jours d'infusion à froid. Nous ne forçons pas la nature, nous attendons qu'elle si révèle." },
+      "artigianato": { "name": "Artisanat", "desc": "Chaque bouteille est une pièce unique, scellée à la main en harmonie avec la culture paysanne." }
     }
   },
   "features": {

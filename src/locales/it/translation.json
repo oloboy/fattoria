@@ -26,11 +26,11 @@
     "title": "L'ECCELLENZA DELLA NATURA",
     "quote": "\"Produciamo liquori come si faceva una volta: con il tempo necessario affinché la terra rilasci il suo segreto più profondo.\"",
     "features": {
-      "abruzzo": "Abruzzo",
-      "vino": "Vino",
-      "legno": "Legno",
-      "lentezza": "Lentezza",
-      "artigianato": "Artigianato"
+      "abruzzo": { "name": "Abruzzo", "desc": "Tra il Gran Sasso e l’Adriatico, raccogliamo l’anima di una terra aspra e generosa." },
+      "vino": { "name": "Vino", "desc": "Il Trebbiano d’Abruzzo è il cuore pulsante che accoglie e trasforma ogni radice in poesia." },
+      "legno": { "name": "Legno", "desc": "Le barrique di rovere custodiscono il segreto del tempo, donando morbidezza e nobiltà." },
+      "lentezza": { "name": "Lentezza", "desc": "Oltre 40 giorni di infusione a freddo. Non forziamo la natura, aspettiamo che si riveli." },
+      "artigianato": { "name": "Artigianato", "desc": "Ogni bottiglia è un pezzo unico, sigillato a mano in armonia con la cultura contadina." }
     }
   },
   "features": {

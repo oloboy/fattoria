@@ -26,11 +26,11 @@
     "title": "THE EXCELLENCE OF NATURE",
     "quote": "\"We produce liqueurs the old-fashioned way: with the time necessary for the earth to release its deepest secret.\"",
     "features": {
-      "abruzzo": "Abruzzo",
-      "vino": "Wine",
-      "legno": "Wood",
-      "lentezza": "Slowness",
-      "artigianato": "Craftsmanship"
+      "abruzzo": { "name": "Abruzzo", "desc": "Between Gran Sasso and the Adriatic, we capture the soul of a harsh and generous land." },
+      "vino": { "name": "Wine", "desc": "Trebbiano d’Abruzzo is the beating heart that welcomes and turns every root into poetry." },
+      "legno": { "name": "Wood", "desc": "Oak barriques guard the secret of time, giving softness and nobility." },
+      "lentezza": { "name": "Slowness", "desc": "Over 40 days of cold infusion. We don't force nature, we wait for it to reveal itself." },
+      "artigianato": { "name": "Craftsmanship", "desc": "Each bottle is a unique piece, hand-sealed in harmony with peasant culture." }
     }
   },
   "features": {
