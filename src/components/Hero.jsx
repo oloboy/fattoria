@@ -58,8 +58,8 @@ export default function Hero() {
           </p>
         </div>
 
-        <div className="hero-reveal flex flex-col items-center gap-12 justify-center">
-          <a href="#prodotti" className="group flex flex-col items-center gap-4">
+        <div className="hero-reveal flex flex-col items-center gap-4 justify-center">
+          <a href="#prodotti" className="group flex flex-col items-center gap-2">
             <div className="w-16 h-16 rounded-full border border-cream/20 flex items-center justify-center group-hover:bg-cream group-hover:text-moss transition-all duration-500">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                 <path d="M12 5v14M5 12l7 7 7-7" strokeLinecap="round" strokeLinejoin="round"/>
