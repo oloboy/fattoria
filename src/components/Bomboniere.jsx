@@ -1,4 +1,4 @@
-import { Gift, CheckCircle2 } from 'lucide-react';
+import { Gift, CheckCircle2, Star, MapPin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 export default function Bomboniere() {
@@ -43,15 +43,39 @@ export default function Bomboniere() {
             ))}
           </div>
           
-          <a 
-            href="https://www.matrimonio.com/bomboniere/fattoria-de-nardis--e301785" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="btn-magnetic bg-clay text-cream px-8 py-4 rounded-[2rem] font-bold text-lg inline-block shadow-xl shadow-clay/20 text-center"
-          >
-            <span className="relative z-10 transition-colors duration-300">{t('bomboniere.cta')}</span>
-            <div className="btn-fill absolute inset-0 bg-white text-moss rounded-[2rem]"></div>
-          </a>
+          <div className="flex flex-col sm:flex-row items-center gap-8">
+            <a 
+              href="https://www.matrimonio.com/bomboniere/fattoria-de-nardis--e301785" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="btn-magnetic bg-clay text-cream px-8 py-4 rounded-[2rem] font-bold text-lg inline-block shadow-xl shadow-clay/20 text-center"
+            >
+              <span className="relative z-10 transition-colors duration-300">{t('bomboniere.cta')}</span>
+              <div className="btn-fill absolute inset-0 bg-white text-moss rounded-[2rem]"></div>
+            </a>
+
+            <div className="flex flex-col gap-2">
+              <div className="flex items-center gap-1">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} size={16} fill="#D4A373" className="text-clay" />
+                ))}
+                <span className="ml-2 font-sans font-bold text-cream text-sm">{t('bomboniere.reviews.rating')}</span>
+                <span className="mx-2 text-cream/20">•</span>
+                <a 
+                  href="https://www.matrimonio.com/bomboniere/fattoria-de-nardis--e301785" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="font-sans text-cream/60 hover:text-clay transition-colors underline underline-offset-4 text-sm"
+                >
+                  {t('bomboniere.reviews.count')}
+                </a>
+              </div>
+              <div className="flex items-center gap-2 text-cream/40">
+                <MapPin size={14} />
+                <span className="font-sans text-xs uppercase tracking-widest">{t('bomboniere.reviews.location')}</span>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Right: Gallery Grid */}

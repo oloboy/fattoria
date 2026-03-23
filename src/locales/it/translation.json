@@ -176,7 +176,12 @@
       "Etichette, tag e accessori coordinati al tema dell'evento",
       "100% liquore artigianale: zero estratti artificiali"
     ],
-    "cta": "Richiedi Catalogo Wedding"
+    "cta": "Richiedi Catalogo Wedding",
+    "reviews": {
+      "rating": "5.0 Fantastico",
+      "count": "10 recensioni",
+      "location": "Teramo"
+    }
   },
   "contatti": {
     "title": "Contatti",

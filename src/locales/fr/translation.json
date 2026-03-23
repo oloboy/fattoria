@@ -184,7 +184,12 @@
       "Étiquettes, tags et accessoires coordonnés au thème de l'événement",
       "Liqueur 100% artisanale : zéro extrait artificiel"
     ],
-    "cta": "Demander le Catalogue Mariage"
+    "cta": "Demander le Catalogue Mariage",
+    "reviews": {
+      "rating": "5.0 Fantastique",
+      "count": "10 avis",
+      "location": "Teramo"
+    }
   },
   "contatti": {
     "title": "Contactez-nous",

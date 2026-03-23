@@ -176,7 +176,12 @@
       "Labels, tags, and accessories coordinated with the event theme",
       "100% artisanal liqueur: zero artificial extracts"
     ],
-    "cta": "Request Wedding Catalog"
+    "cta": "Request Wedding Catalog",
+    "reviews": {
+      "rating": "5.0 Fantastic",
+      "count": "10 reviews",
+      "location": "Teramo"
+    }
   },
   "contatti": {
     "title": "Contact Us",
