@@ -15,10 +15,7 @@ export default function Footer() {
           <p className="text-cream/60 font-sans text-sm md:text-base leading-relaxed mb-8">
             {t('footer.desc')}
           </p>
-          <div className="inline-flex items-center gap-3 bg-moss/20 border border-moss/30 px-4 py-2.5 rounded-full">
-            <div className="w-2.5 h-2.5 rounded-full bg-[#10B981] pulse-dot shadow-[0_0_10px_#10B981]"></div>
-            <span className="font-mono text-xs font-bold uppercase tracking-wider text-[#10B981]">{t('footer.online')}</span>
-          </div>
+
         </div>
 
         <div className="flex flex-wrap gap-16 md:gap-24">
