@@ -4,14 +4,16 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useTranslation } from 'react-i18next';
 import slownessIcon from '../assets/slowness_icon.png';
 import craftIcon from '../assets/craftmanship_icon.png';
+import vinoImg from '../assets/vino.jpg';
+import barrelImg from '../assets/botte.jpg';
 
 gsap.registerPlugin(ScrollTrigger);
 
 const featuresData = [
   { id: 'abruzzo', img: 'https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?auto=format&fit=crop&q=80&w=300' },
-  { id: 'vino', img: 'https://images.unsplash.com/photo-1533435328003-57760de0527f?auto=format&fit=crop&q=80&w=300' },
-  { id: 'radici', img: 'https://images.unsplash.com/photo-1542369653-5824b12fe01b?auto=format&fit=crop&q=80&w=300' },
-  { id: 'lentezza', img: 'https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?auto=format&fit=crop&q=80&w=300' },
+  { id: 'vino', img: vinoImg },
+  { id: 'legno', img: barrelImg },
+  { id: 'lentezza', img: slownessIcon },
   { id: 'artigianato', img: craftIcon }
 ];
 
