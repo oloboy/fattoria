@@ -8,10 +8,10 @@ import craftIcon from '../assets/craftmanship_icon.png';
 gsap.registerPlugin(ScrollTrigger);
 
 const featuresData = [
-  { id: 'abruzzo', img: 'https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?auto=format&fit=crop&q=80&w=200' },
-  { id: 'genziana', img: 'https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?auto=format&fit=crop&q=80&w=200' },
-  { id: 'radici', img: 'https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&q=80&w=200' },
-  { id: 'lentezza', img: slownessIcon },
+  { id: 'abruzzo', img: 'https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?auto=format&fit=crop&q=80&w=300' },
+  { id: 'vino', img: 'https://images.unsplash.com/photo-1533435328003-57760de0527f?auto=format&fit=crop&q=80&w=300' },
+  { id: 'radici', img: 'https://images.unsplash.com/photo-1542369653-5824b12fe01b?auto=format&fit=crop&q=80&w=300' },
+  { id: 'lentezza', img: 'https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?auto=format&fit=crop&q=80&w=300' },
   { id: 'artigianato', img: craftIcon }
 ];
 
