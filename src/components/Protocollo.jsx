@@ -1,35 +1,31 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useTranslation } from 'react-i18next';
 import estrazioneImg from '../assets/estrazione.jpg';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const steps = [
+const stepsData = [
   {
     num: '01',
-    title: 'Selezione Naturale',
-    desc: 'La ricerca meticolosa delle migliori erbe e radici nel Parco Nazionale del Gran Sasso. Genziana Lutea, bacche di ginepro e botaniche spontanee vengono selezionate e raccolte manualmente nel pieno rispetto dei cicli stagionali, garantendo l\'assoluta purezza della materia prima per i nostri liquori.',
-    tag: 'Raccolta Manuale',
+    key: 'step1',
     img: 'https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis6-2300x2000.jpg'
   },
   {
     num: '02',
-    title: 'Estrazione Fredda',
-    desc: 'Il cuore del nostro processo artigianale: nessuna forzatura termica o chimica. Applichiamo esclusivamente la tecnica della macerazione a freddo, un\'infusione lenta e prolungata che dura oltre 40 giorni per estrarre in modo non invasivo l\'anima aromatica e le proprietà naturali essenziali.',
-    tag: 'Processo Lento',
+    key: 'step2',
     img: estrazioneImg
   },
   {
     num: '03',
-    title: 'Equilibrio & Riposo',
-    desc: 'Dopo una filtrazione rigorosamente artigianale, il liquore riposa e si affina in antiche barrique di rovere per smussare ogni asperità. Questo affinamento conferisce morbidezza, stabilizza il sapore nel tempo e dona quella rotondità ed eleganza tipica della tradizione abruzzese.',
-    tag: 'Affinamento Rovere',
+    key: 'step3',
     img: 'https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis17-2300x2000.jpg'
   }
 ];
 
 export default function Protocollo() {
+  const { t } = useTranslation();
   const containerRef = useRef(null);
   
   useEffect(() => {
@@ -54,19 +50,19 @@ export default function Protocollo() {
     <section id="processo" ref={containerRef} className="py-32 px-6 bg-cream border-t border-moss/10 relative overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="mb-24 text-center">
-          <h4 className="font-data text-moss/50 text-[10px] uppercase tracking-[0.4em] mb-4">Il Metodo</h4>
-          <h2 className="font-drama text-moss text-4xl md:text-5xl lg:text-6xl tracking-[0.1em]">ETICA DELLA LAVORAZIONE</h2>
+          <h4 className="font-data text-moss/50 text-[10px] uppercase tracking-[0.4em] mb-4">{t('protocollo.subtitle')}</h4>
+          <h2 className="font-drama text-moss text-4xl md:text-5xl lg:text-6xl tracking-[0.1em]">{t('protocollo.title')}</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
-          {steps.map((step) => (
+          {stepsData.map((step) => (
             <div key={step.num} className="protocol-step group flex flex-col h-full">
               {/* Image Container */}
               <div className="mb-10 w-full aspect-[4/5] rounded-[2rem] overflow-hidden relative border border-moss/5 shadow-xl">
                 <div className="absolute inset-0 bg-moss/20 group-hover:bg-transparent transition-colors duration-700 z-10 mix-blend-multiply pointer-events-none"></div>
                 <img 
                   src={step.img} 
-                  alt={step.title}
+                  alt={t(`protocollo.${step.key}.title`)}
                   className="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-1000"
                 />
               </div>
@@ -78,15 +74,15 @@ export default function Protocollo() {
                   <div className="h-px flex-1 bg-moss/10 group-hover:bg-clay group-hover:scale-x-110 transition-all duration-700 origin-left"></div>
                 </div>
                 
-                <h3 className="font-drama text-moss text-3xl mb-4 tracking-wider">{step.title}</h3>
+                <h3 className="font-drama text-moss text-3xl mb-4 tracking-wider">{t(`protocollo.${step.key}.title`)}</h3>
                 
                 <p className="text-charcoal/70 font-sans leading-relaxed mb-8 flex-1">
-                  {step.desc}
+                  {t(`protocollo.${step.key}.desc`)}
                 </p>
                 
                 <div className="mt-auto">
                   <span className="inline-block font-data text-[10px] uppercase tracking-[0.2em] text-clay/90 border border-clay/30 px-5 py-2.5 rounded-full bg-clay/5">
-                    {step.tag}
+                    {t(`protocollo.${step.key}.tag`)}
                   </span>
                 </div>
               </div>

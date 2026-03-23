@@ -1,13 +1,15 @@
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export default function Contatti() {
+  const { t } = useTranslation();
   return (
     <section id="contatti" className="py-24 px-6 md:px-12 lg:px-24 bg-cream pb-32">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16">
         
         {/* Info Box */}
         <div className="w-full lg:w-1/3">
-          <h2 className="font-sans font-bold text-4xl md:text-5xl text-moss mb-8">Contatti</h2>
+          <h2 className="font-sans font-bold text-4xl md:text-5xl text-moss mb-8">{t('contatti.title')}</h2>
           
           <div className="flex flex-col gap-8">
             <div className="flex gap-4 items-start">
@@ -15,8 +17,8 @@ export default function Contatti() {
                 <MapPin className="text-clay shrink-0" size={24} />
               </div>
               <div>
-                <h4 className="font-bold text-moss font-sans text-xl mb-1">Laboratorio</h4>
-                <p className="text-charcoal/70 font-sans leading-relaxed">Frazione Garrano Alto, 16<br/>64100 Teramo (TE) – Italia</p>
+                <h4 className="font-bold text-moss font-sans text-xl mb-1">{t('contatti.workshop')}</h4>
+                <p className="text-charcoal/70 font-sans leading-relaxed">{t('contatti.workshopAddr1')}<br/>{t('contatti.workshopAddr2')}</p>
               </div>
             </div>
             
@@ -25,7 +27,7 @@ export default function Contatti() {
                 <Phone className="text-clay shrink-0" size={24} />
               </div>
               <div>
-                <h4 className="font-bold text-moss font-sans text-xl mb-1">Telefono</h4>
+                <h4 className="font-bold text-moss font-sans text-xl mb-1">{t('contatti.phoneLabel')}</h4>
                 <p className="text-charcoal/70 font-sans leading-relaxed">+39 349 734 8330</p>
               </div>
             </div>
@@ -35,7 +37,7 @@ export default function Contatti() {
                 <Mail className="text-clay shrink-0" size={24} />
               </div>
               <div>
-                <h4 className="font-bold text-moss font-sans text-xl mb-1">Email</h4>
+                <h4 className="font-bold text-moss font-sans text-xl mb-1">{t('contatti.emailLabel')}</h4>
                 <p className="text-charcoal/70 font-sans leading-relaxed">info@fattoriadenardis.it</p>
               </div>
             </div>
@@ -45,8 +47,8 @@ export default function Contatti() {
                 <Clock className="text-clay shrink-0" size={24} />
               </div>
               <div>
-                <h4 className="font-bold text-moss font-sans text-xl mb-1">Orari Vendita Diretta</h4>
-                <p className="text-charcoal/70 font-sans leading-relaxed">Lunedì – Venerdì<br/>15:00 – 19:00</p>
+                <h4 className="font-bold text-moss font-sans text-xl mb-1">{t('contatti.hoursLabel')}</h4>
+                <p className="text-charcoal/70 font-sans leading-relaxed">{t('contatti.hoursDays')}<br/>15:00 – 19:00</p>
               </div>
             </div>
           </div>

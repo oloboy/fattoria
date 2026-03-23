@@ -1,0 +1,128 @@
+{
+  "ageGate": {
+    "title": "BENVENUTO",
+    "textP1": "Per accedere a questo sito web devi avere l'età legale per il consumo di alcolici nel tuo paese di residenza.",
+    "textP2": "Sei maggiorenne?",
+    "confirmBtn": "Sì, ho più di 18 anni",
+    "denyBtn": "No, sono minorenne",
+    "footerText": "Bevete responsabilmente. La vendita di alcolici è vietata ai minori di 18 anni."
+  },
+  "nav": {
+    "liquors": "I Liquori",
+    "philosophy": "Filosofia",
+    "favors": "Bomboniere & Eventi",
+    "contact": "Contattaci"
+  },
+  "hero": {
+    "subtitle": "Dal 1916 • Teramo, Abruzzo",
+    "titlePrefix": "L'Abruzzo è il",
+    "titleHighlight": "sapore.",
+    "descriptionLine1": "L'essenza liquida di una terra aspra e generosa.",
+    "descriptionLine2": "Tradizione, attesa e natura racchiuse in ogni goccia.",
+    "explore": "Esplora"
+  },
+  "filosofia": {
+    "subtitle": "La nostra essenza",
+    "title": "L'ECCELLENZA DELLE RADICI",
+    "quote": "\"Produciamo liquori come si faceva una volta: con il tempo necessario affinché la terra rilasci il suo segreto più profondo.\"",
+    "features": {
+      "abruzzo": "Abruzzo",
+      "genziana": "Genziana",
+      "radici": "Radici",
+      "lentezza": "Lentezza",
+      "artigianato": "Artigianato"
+    }
+  },
+  "features": {
+    "shuffler": {
+      "item1Title": "Genziana Lutea",
+      "item1Desc": "Riposata in barrique",
+      "item2Title": "Ratafià & Papavero",
+      "item2Desc": "Ricette tradizionali",
+      "item3Title": "Amaro alle Erbe",
+      "item3Desc": "Selezione botanica",
+      "liqueur": "LIQUORE"
+    },
+    "typewriter": {
+      "text": "> INIZIALIZZAZIONE...\n> Macerazione: ATTIVA\n> Aromi: ZERO RILEVATI\n> Riposo: IN BARRIQUE\n> Filtrazione: ARTIGIANALE\n> STATO: PRONTO"
+    },
+    "scheduler": {
+      "days": ["D", "L", "M", "M", "G", "V", "S"],
+      "bookDate": "Prenota Data"
+    },
+    "cards": {
+      "catalog": "Catalogo",
+      "artisanLiqueurs": "Liquori Artigianali",
+      "artisanDesc": "Ricette tipiche abruzzesi prodotte in piccoli lotti. Genziana, Ratafià, Liquirizia, Papavero e Amaro.",
+      "protocol": "Protocollo",
+      "zeroArtifacts": "Zero Artefatti",
+      "zeroDesc": "Macerazione lenta delle botaniche, riposo in rovere e filtrazione naturale. Nessun aroma aggiunto.",
+      "events": "Eventi",
+      "customFavors": "Bomboniere Custom",
+      "customDesc": "Personalizzazione reale per matrimoni. Bottiglie, etichette e packaging su misura per il tuo evento."
+    }
+  },
+  "protocollo": {
+    "subtitle": "Il Metodo",
+    "title": "ETICA DELLA LAVORAZIONE",
+    "step1": {
+      "title": "Selezione Naturale",
+      "desc": "La ricerca meticolosa delle migliori erbe e radici nel Parco Nazionale del Gran Sasso. Genziana Lutea, bacche di ginepro e botaniche spontanee vengono selezionate e raccolte manualmente nel pieno rispetto dei cicli stagionali, garantendo l'assoluta purezza della materia prima per i nostri liquori.",
+      "tag": "Raccolta Manuale"
+    },
+    "step2": {
+      "title": "Estrazione Fredda",
+      "desc": "Il cuore del nostro processo artigianale: nessuna forzatura termica o chimica. Applichiamo esclusivamente la tecnica della macerazione a freddo, un'infusione lenta e prolungata che dura oltre 40 giorni per estrarre in modo non invasivo l'anima aromatica e le proprietà naturali essenziali.",
+      "tag": "Processo Lento"
+    },
+    "step3": {
+      "title": "Equilibrio & Riposo",
+      "desc": "Dopo una filtrazione rigorosamente artigianale, il liquore riposa e si affina in antiche barrique di rovere per smussare ogni asperità. Questo affinamento conferisce morbidezza, stabilizza il sapore nel tempo e dona quella rotondità ed eleganza tipica della tradizione abruzzese.",
+      "tag": "Affinamento Rovere"
+    }
+  },
+  "prodotti": {
+    "subtitle": "Il Catalogo",
+    "title": "I NOSTRI LIQUORI",
+    "desc": "Dal Trebbiano d'Abruzzo unito alla radice di Genziana Lutea, fino alla morbidezza della Ratafià. Ogni bottiglia racchiude la storia del nostro territorio.",
+    "items": {
+      "item1": "Genziana Barrique",
+      "item2": "Ratafià Tradizionale",
+      "item3": "Liquore alla Liquirizia"
+    },
+    "cta": "Scarica il Catalogo Completo"
+  },
+  "bomboniere": {
+    "badge": "Bomboniere & Eventi",
+    "title1": "Un ricordo",
+    "title2": "senza tempo.",
+    "desc": "Dimentica le solite bomboniere impersonali. Crea un vero e proprio percorso sensoriale per i tuoi ospiti, con packaging e formati completamente su misura per il tuo evento.",
+    "features": [
+      "Ampia scelta di formati mini (60ml, 100ml, 200ml)",
+      "Design shape esclusive (quadra, ovale, palla piatta)",
+      "Etichette, tag e accessori coordinati al tema dell'evento",
+      "100% liquore artigianale: zero estratti artificiali"
+    ],
+    "cta": "Richiedi Catalogo Wedding"
+  },
+  "contatti": {
+    "title": "Contatti",
+    "workshop": "Laboratorio",
+    "workshopAddr1": "Frazione Garrano Alto, 16",
+    "workshopAddr2": "64100 Teramo (TE) – Italia",
+    "phoneLabel": "Telefono",
+    "emailLabel": "Email",
+    "hoursLabel": "Orari Vendita Diretta",
+    "hoursDays": "Lunedì – Venerdì"
+  },
+  "footer": {
+    "desc": "Liquori tradizionali abruzzesi prodotti artigianalmente a Garrano Alto, nel Parco Nazionale del Gran Sasso e Monti della Laga.",
+    "online": "Sistema: Online",
+    "explore": "Esplora",
+    "network": "Network",
+    "copyright": "© {{year}} DE NARDIS MARIANNA. P.IVA 01722800677. REA 147252.",
+    "privacy": "Privacy Policy",
+    "cookie": "Cookie",
+    "warning": "Bevi responsabilmente. <br class=\"md:hidden\" /> La vendita di alcolici è vietata ai minori di 18 anni."
+  }
+}

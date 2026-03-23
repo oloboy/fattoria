@@ -1,9 +1,11 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
+import { useTranslation } from 'react-i18next';
 import heroImg from '../assets/vineyard_hero.png';
 import logo from '../assets/logo.png';
 
 export default function Hero() {
+  const { t } = useTranslation();
   const containerRef = useRef(null);
 
   useEffect(() => {
@@ -39,22 +41,22 @@ export default function Hero() {
 
       <div className="relative z-10 px-6 max-w-5xl">
         <div className="hero-reveal mb-4 overflow-hidden">
-          <span className="font-data text-cream/60 tracking-[0.3em] text-[10px] md:text-xs uppercase block">Dal 1916 • Teramo, Abruzzo</span>
+          <span className="font-data text-cream/60 tracking-[0.3em] text-[10px] md:text-xs uppercase block">{t('hero.subtitle')}</span>
         </div>
         
         <div className="hero-reveal flex flex-col items-center mb-10">
           <h1 className="font-drama text-cream text-[8vw] md:text-[5rem] lg:text-[6rem] leading-none tracking-[0.2em] mb-4">
-            L'Abruzzo è il
+            {t('hero.titlePrefix')}
           </h1>
           <h2 className="font-drama text-clay text-[15vw] md:text-[10rem] lg:text-[12rem] leading-[0.7] tracking-tighter drop-shadow-2xl">
-            sapore.
+            {t('hero.titleHighlight')}
           </h2>
         </div>
 
         <div className="hero-reveal max-w-xl mx-auto mb-12">
           <p className="text-cream/80 text-base md:text-lg font-light leading-relaxed px-4">
-            L'essenza liquida di una terra aspra e generosa. <br className="hidden md:block"/>
-            Tradizione, attesa e natura racchiuse in ogni goccia.
+            {t('hero.descriptionLine1')} <br className="hidden md:block"/>
+            {t('hero.descriptionLine2')}
           </p>
         </div>
 
@@ -65,7 +67,7 @@ export default function Hero() {
                 <path d="M12 5v14M5 12l7 7 7-7" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </div>
-            <span className="font-data text-[10px] uppercase tracking-widest text-cream/40 group-hover:text-cream transition-colors">Esplora</span>
+            <span className="font-data text-[10px] uppercase tracking-widest text-cream/40 group-hover:text-cream transition-colors">{t('hero.explore')}</span>
           </a>
 
           <img 

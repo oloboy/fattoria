@@ -1,6 +1,10 @@
 import { Gift, CheckCircle2 } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export default function Bomboniere() {
+  const { t } = useTranslation();
+  const features = t('bomboniere.features', { returnObjects: true });
+
   return (
     <section id="bomboniere" className="py-32 px-6 md:px-12 lg:px-24 bg-moss relative overflow-hidden">
       {/* Background Image */}
@@ -19,24 +23,19 @@ export default function Bomboniere() {
         <div className="w-full lg:w-1/2">
           <div className="inline-flex items-center gap-3 bg-clay/20 border border-clay/30 px-5 py-2.5 rounded-full mb-8">
             <Gift size={18} className="text-clay" />
-            <span className="font-mono text-xs font-bold uppercase tracking-widest text-cream">Bomboniere & Eventi</span>
+            <span className="font-mono text-xs font-bold uppercase tracking-widest text-cream">{t('bomboniere.badge')}</span>
           </div>
           
           <h2 className="font-sans font-bold text-4xl md:text-6xl text-cream mb-6 leading-[1.1]">
-            Un ricordo <span className="font-drama italic font-normal text-clay">senza tempo.</span>
+            {t('bomboniere.title1')} <span className="font-drama italic font-normal text-clay">{t('bomboniere.title2')}</span>
           </h2>
           
           <p className="font-sans text-lg md:text-xl text-cream/80 max-w-xl leading-relaxed mb-10">
-            Dimentica le solite bomboniere impersonali. Crea un vero e proprio percorso sensoriale per i tuoi ospiti, con packaging e formati completamente su misura per il tuo evento.
+            {t('bomboniere.desc')}
           </p>
           
           <div className="flex flex-col gap-5 mb-12">
-            {[
-              "Ampia scelta di formati mini (60ml, 100ml, 200ml)",
-              "Design shape esclusive (quadra, ovale, palla piatta)",
-              "Etichette, tag e accessori coordinati al tema dell'evento",
-              "100% liquore artigianale: zero estratti artificiali"
-            ].map((feature, idx) => (
+            {features.map((feature, idx) => (
               <div key={idx} className="flex items-start gap-4">
                 <CheckCircle2 size={24} className="text-clay shrink-0 mt-0.5" />
                 <span className="font-sans text-cream text-base md:text-lg">{feature}</span>
@@ -45,7 +44,7 @@ export default function Bomboniere() {
           </div>
           
           <button className="btn-magnetic bg-clay text-cream px-8 py-4 rounded-[2rem] font-bold text-lg inline-block shadow-xl shadow-clay/20">
-            <span className="relative z-10 transition-colors duration-300">Richiedi Catalogo Wedding</span>
+            <span className="relative z-10 transition-colors duration-300">{t('bomboniere.cta')}</span>
             <div className="btn-fill absolute inset-0 bg-white text-moss rounded-[2rem]"></div>
           </button>
         </div>

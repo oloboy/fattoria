@@ -1,0 +1,128 @@
+{
+  "ageGate": {
+    "title": "WELCOME",
+    "textP1": "To access this website you must be of legal drinking age in your country of residence.",
+    "textP2": "Are you of legal age?",
+    "confirmBtn": "Yes, I am over 18",
+    "denyBtn": "No, I am underage",
+    "footerText": "Drink responsibly. The sale of alcohol to minors is prohibited."
+  },
+  "nav": {
+    "liquors": "Liqueurs",
+    "philosophy": "Philosophy",
+    "favors": "Favors & Events",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "subtitle": "Since 1916 • Teramo, Abruzzo",
+    "titlePrefix": "Abruzzo is",
+    "titleHighlight": "flavor.",
+    "descriptionLine1": "The liquid essence of a harsh and generous land.",
+    "descriptionLine2": "Tradition, patience, and nature captured in every drop.",
+    "explore": "Explore"
+  },
+  "filosofia": {
+    "subtitle": "Our essence",
+    "title": "THE EXCELLENCE OF ROOTS",
+    "quote": "\"We produce liqueurs the old-fashioned way: with the time necessary for the earth to release its deepest secret.\"",
+    "features": {
+      "abruzzo": "Abruzzo",
+      "genziana": "Gentian",
+      "radici": "Roots",
+      "lentezza": "Slowness",
+      "artigianato": "Craftsmanship"
+    }
+  },
+  "features": {
+    "shuffler": {
+      "item1Title": "Gentiana Lutea",
+      "item1Desc": "Aged in barrique",
+      "item2Title": "Ratafià & Poppy",
+      "item2Desc": "Traditional recipes",
+      "item3Title": "Herbal Amaro",
+      "item3Desc": "Botanical selection",
+      "liqueur": "LIQUEUR"
+    },
+    "typewriter": {
+      "text": "> INITIALIZING...\n> Maceration: ACTIVE\n> Flavors: ZERO DETECTED\n> Resting: IN BARRIQUE\n> Filtration: ARTISANAL\n> STATUS: READY"
+    },
+    "scheduler": {
+      "days": ["S", "M", "T", "W", "T", "F", "S"],
+      "bookDate": "Book Date"
+    },
+    "cards": {
+      "catalog": "Catalog",
+      "artisanLiqueurs": "Artisanal Liqueurs",
+      "artisanDesc": "Typical Abruzzo recipes produced in small batches. Gentian, Ratafià, Licorice, Poppy, and Amaro.",
+      "protocol": "Protocol",
+      "zeroArtifacts": "Zero Artifacts",
+      "zeroDesc": "Slow maceration of botanicals, resting in oak, and natural filtration. No added flavors.",
+      "events": "Events",
+      "customFavors": "Custom Favors",
+      "customDesc": "Real customization for weddings. Bottles, labels, and packaging tailored for your event."
+    }
+  },
+  "protocollo": {
+    "subtitle": "The Method",
+    "title": "PROCESSING ETHICS",
+    "step1": {
+      "title": "Natural Selection",
+      "desc": "Meticulous search for the best herbs and roots in the Gran Sasso National Park. Gentiana Lutea, juniper berries, and wild botanicals are selected and hand-harvested in full respect of seasonal cycles, ensuring the absolute purity of the raw material.",
+      "tag": "Manual Harvest"
+    },
+    "step2": {
+      "title": "Cold Extraction",
+      "desc": "The heart of our artisanal process: no thermal or chemical forcing. We exclusively apply the technique of cold maceration, a slow and prolonged infusion lasting over 40 days to gently extract the aromatic soul and essential natural properties.",
+      "tag": "Slow Process"
+    },
+    "step3": {
+      "title": "Balance & Rest",
+      "desc": "After strictly artisanal filtration, the liqueur rests and refines in ancient oak barriques to smooth out any roughness. This aging confers softness, stabilizes the flavor over time, and gives that roundness and elegance typical of the Abruzzo tradition.",
+      "tag": "Oak Aging"
+    }
+  },
+  "prodotti": {
+    "subtitle": "The Catalog",
+    "title": "OUR LIQUEURS",
+    "desc": "From Trebbiano d'Abruzzo combined with Gentiana Lutea root, to the softness of Ratafià. Every bottle contains the history of our territory.",
+    "items": {
+      "item1": "Barrique Gentian",
+      "item2": "Traditional Ratafià",
+      "item3": "Licorice Liqueur"
+    },
+    "cta": "Download Full Catalog"
+  },
+  "bomboniere": {
+    "badge": "Favors & Events",
+    "title1": "A memory",
+    "title2": "timeless.",
+    "desc": "Forget the usual impersonal favors. Create a true sensory journey for your guests, with packaging and formats completely tailored to your event.",
+    "features": [
+      "Wide choice of mini formats (60ml, 100ml, 200ml)",
+      "Exclusive shape designs (square, oval, flat ball)",
+      "Labels, tags, and accessories coordinated with the event theme",
+      "100% artisanal liqueur: zero artificial extracts"
+    ],
+    "cta": "Request Wedding Catalog"
+  },
+  "contatti": {
+    "title": "Contact Us",
+    "workshop": "Workshop",
+    "workshopAddr1": "Frazione Garrano Alto, 16",
+    "workshopAddr2": "64100 Teramo (TE) – Italy",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "hoursLabel": "Direct Sales Hours",
+    "hoursDays": "Monday – Friday"
+  },
+  "footer": {
+    "desc": "Traditional Abruzzo liqueurs crafted by hand in Garrano Alto, in the Gran Sasso and Monti della Laga National Park.",
+    "online": "System: Online",
+    "explore": "Explore",
+    "network": "Network",
+    "copyright": "© {{year}} DE NARDIS MARIANNA. VAT 01722800677. REA 147252.",
+    "privacy": "Privacy Policy",
+    "cookie": "Cookie",
+    "warning": "Drink responsibly. <br class=\"md:hidden\" /> The sale of alcohol to minors is prohibited."
+  }
+}

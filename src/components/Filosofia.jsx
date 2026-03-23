@@ -1,20 +1,22 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useTranslation } from 'react-i18next';
 import slownessIcon from '../assets/slowness_icon.png';
 import craftIcon from '../assets/craftmanship_icon.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const features = [
-  { name: 'Abruzzo', img: 'https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?auto=format&fit=crop&q=80&w=200' },
-  { name: 'Genziana', img: 'https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?auto=format&fit=crop&q=80&w=200' },
-  { name: 'Radici', img: 'https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&q=80&w=200' },
-  { name: 'Lentezza', img: slownessIcon },
-  { name: 'Artigianato', img: craftIcon }
+const featuresData = [
+  { id: 'abruzzo', img: 'https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?auto=format&fit=crop&q=80&w=200' },
+  { id: 'genziana', img: 'https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?auto=format&fit=crop&q=80&w=200' },
+  { id: 'radici', img: 'https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&q=80&w=200' },
+  { id: 'lentezza', img: slownessIcon },
+  { id: 'artigianato', img: craftIcon }
 ];
 
 export default function Filosofia() {
+  const { t } = useTranslation();
   const sectionRef = useRef(null);
 
   useEffect(() => {
@@ -38,23 +40,23 @@ export default function Filosofia() {
   return (
     <section ref={sectionRef} id="filosofia" className="bg-moss py-32 px-6">
       <div className="max-w-7xl mx-auto text-center">
-        <h4 className="font-data text-cream/40 text-[10px] uppercase tracking-[0.4em] mb-4">La nostra essenza</h4>
-        <h2 className="font-drama text-cream text-3xl md:text-5xl mb-16 tracking-widest">L'ECCELLENZA DELLE RADICI</h2>
+        <h4 className="font-data text-cream/40 text-[10px] uppercase tracking-[0.4em] mb-4">{t('filosofia.subtitle')}</h4>
+        <h2 className="font-drama text-cream text-3xl md:text-5xl mb-16 tracking-widest">{t('filosofia.title')}</h2>
         
         <div className="flex flex-wrap justify-center gap-8 md:gap-16">
-          {features.map((feature) => (
-            <div key={feature.name} className="feature-item flex flex-col items-center gap-4 group cursor-pointer">
+          {featuresData.map((feature) => (
+            <div key={feature.id} className="feature-item flex flex-col items-center gap-4 group cursor-pointer">
               <div className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden border border-cream/10 grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105 group-hover:border-clay/50">
-                <img src={feature.img} alt={feature.name} className="w-full h-full object-cover" />
+                <img src={feature.img} alt={t(`filosofia.features.${feature.id}`)} className="w-full h-full object-cover" />
               </div>
-              <span className="font-data text-[10px] text-cream/60 uppercase tracking-widest group-hover:text-clay transition-colors">{feature.name}</span>
+              <span className="font-data text-[10px] text-cream/60 uppercase tracking-widest group-hover:text-clay transition-colors">{t(`filosofia.features.${feature.id}`)}</span>
             </div>
           ))}
         </div>
 
         <div className="mt-24 max-w-2xl mx-auto">
           <p className="font-drama text-cream/80 text-xl md:text-2xl leading-relaxed italic">
-            "Produciamo liquori come si faceva una volta: con il tempo necessario affinché la terra rilasci il suo segreto più profondo."
+            {t('filosofia.quote')}
           </p>
         </div>
       </div>

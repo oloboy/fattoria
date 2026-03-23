@@ -1,12 +1,14 @@
 import { useEffect, useState, useRef } from 'react';
 import gsap from 'gsap';
 import { MousePointer2 } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 function ShufflerCard() {
+  const { t } = useTranslation();
   const [items, setItems] = useState([
-    { id: 1, title: 'Genziana Lutea', desc: 'Riposata in barrique', color: 'bg-moss' },
-    { id: 2, title: 'Ratafià & Papavero', desc: 'Ricette tradizionali', color: 'bg-clay' },
-    { id: 3, title: 'Amaro alle Erbe', desc: 'Selezione botanica', color: 'bg-charcoal' },
+    { id: 1, key: 'item1', color: 'bg-moss' },
+    { id: 2, key: 'item2', color: 'bg-clay' },
+    { id: 3, key: 'item3', color: 'bg-charcoal' },
   ]);
 
   useEffect(() => {
@@ -38,9 +40,9 @@ function ShufflerCard() {
               zIndex: 10 - index
             }}
           >
-            <div className="font-mono text-[10px] opacity-60 mb-2">0{item.id} // LIQUORE</div>
-            <div className="font-sans font-bold text-lg">{item.title}</div>
-            <div className="font-sans text-xs mt-1 text-cream/80">{item.desc}</div>
+            <div className="font-mono text-[10px] opacity-60 mb-2">0{item.id} // {t('features.shuffler.liqueur')}</div>
+            <div className="font-sans font-bold text-lg">{t(`features.shuffler.${item.key}Title`)}</div>
+            <div className="font-sans text-xs mt-1 text-cream/80">{t(`features.shuffler.${item.key}Desc`)}</div>
           </div>
         );
       })}
@@ -49,8 +51,11 @@ function ShufflerCard() {
 }
 
 function TypewriterCard() {
+  const { t } = useTranslation();
   const [text, setText] = useState('');
-  const fullText = "> INIZIALIZZAZIONE...\n> Macerazione: ATTIVA\n> Aromi: ZERO RILEVATI\n> Riposo: IN BARRIQUE\n> Filtrazione: ARTIGIANALE\n> STATO: PRONTO";
+  
+  // Note: we can't easily rely on just 't' to dynamically change the whole typewriter instantly during typing if language changes, but it's fine for our use case to re-run effect
+  const fullText = t('features.typewriter.text');
   
   useEffect(() => {
     let currentIndex = 0;
@@ -77,9 +82,10 @@ function TypewriterCard() {
 }
 
 function SchedulerCard() {
+  const { t } = useTranslation();
   const cursorRef = useRef(null);
   const [activeDay, setActiveDay] = useState(null);
-  const days = ['D', 'L', 'M', 'M', 'G', 'V', 'S'];
+  const days = t('features.scheduler.days', { returnObjects: true });
 
   useEffect(() => {
     let ctx = gsap.context(() => {
@@ -120,7 +126,7 @@ function SchedulerCard() {
       </div>
       
       <div className="inline-block bg-charcoal text-cream text-[10px] uppercase tracking-wider font-bold px-4 py-2 rounded-lg">
-        Prenota Data
+        {t('features.scheduler.bookDate')}
       </div>
 
       <div ref={cursorRef} className="absolute top-0 left-0 z-10 drop-shadow-md text-charcoal pointer-events-none">
@@ -131,6 +137,7 @@ function SchedulerCard() {
 }
 
 export default function Features() {
+  const { t } = useTranslation();
   return (
     <section id="features" className="py-24 px-6 md:px-12 lg:px-24 bg-cream">
       <div className="max-w-7xl mx-auto">
@@ -140,11 +147,11 @@ export default function Features() {
           <div className="bg-white rounded-[2.5rem] p-6 md:p-10 border border-moss/5 shadow-[0_8px_30px_rgb(0,0,0,0.04)] flex flex-col h-[400px] md:h-[420px]">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-2 h-2 rounded-full bg-clay pulse-dot"></div>
-              <span className="font-mono text-xs font-bold tracking-wider text-charcoal/40 uppercase">Catalogo</span>
+              <span className="font-mono text-xs font-bold tracking-wider text-charcoal/40 uppercase">{t('features.cards.catalog')}</span>
             </div>
-            <h3 className="font-sans font-bold text-2xl text-moss mb-3">Liquori Artigianali</h3>
+            <h3 className="font-sans font-bold text-2xl text-moss mb-3">{t('features.cards.artisanLiqueurs')}</h3>
             <p className="font-sans text-sm text-charcoal/60 leading-relaxed font-medium">
-              Ricette tipiche abruzzesi prodotte in piccoli lotti. Genziana, Ratafià, Liquirizia, Papavero e Amaro.
+              {t('features.cards.artisanDesc')}
             </p>
             <div className="mt-auto">
               <ShufflerCard />
@@ -154,11 +161,11 @@ export default function Features() {
           <div className="bg-white rounded-[2.5rem] p-6 md:p-10 border border-moss/5 shadow-[0_8px_30px_rgb(0,0,0,0.04)] flex flex-col h-[400px] md:h-[420px]">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-2 h-2 rounded-full bg-moss pulse-dot"></div>
-              <span className="font-mono text-xs font-bold tracking-wider text-charcoal/40 uppercase">Protocollo</span>
+              <span className="font-mono text-xs font-bold tracking-wider text-charcoal/40 uppercase">{t('features.cards.protocol')}</span>
             </div>
-            <h3 className="font-sans font-bold text-2xl text-moss mb-3">Zero Artefatti</h3>
+            <h3 className="font-sans font-bold text-2xl text-moss mb-3">{t('features.cards.zeroArtifacts')}</h3>
             <p className="font-sans text-sm text-charcoal/60 leading-relaxed font-medium">
-              Macerazione lenta delle botaniche, riposo in rovere e filtrazione naturale. Nessun aroma aggiunto.
+              {t('features.cards.zeroDesc')}
             </p>
             <div className="mt-auto">
               <TypewriterCard />
@@ -168,11 +175,11 @@ export default function Features() {
           <div className="bg-white rounded-[2.5rem] p-6 md:p-10 border border-moss/5 shadow-[0_8px_30px_rgb(0,0,0,0.04)] flex flex-col h-[400px] md:h-[420px]">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-2 h-2 rounded-full bg-charcoal pulse-dot"></div>
-              <span className="font-mono text-xs font-bold tracking-wider text-charcoal/40 uppercase">Eventi</span>
+              <span className="font-mono text-xs font-bold tracking-wider text-charcoal/40 uppercase">{t('features.cards.events')}</span>
             </div>
-            <h3 className="font-sans font-bold text-2xl text-moss mb-3">Bomboniere Custom</h3>
+            <h3 className="font-sans font-bold text-2xl text-moss mb-3">{t('features.cards.customFavors')}</h3>
             <p className="font-sans text-sm text-charcoal/60 leading-relaxed font-medium">
-              Personalizzazione reale per matrimoni. Bottiglie, etichette e packaging su misura per il tuo evento.
+              {t('features.cards.customDesc')}
             </p>
             <div className="mt-auto">
               <SchedulerCard />

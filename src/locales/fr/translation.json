@@ -1,0 +1,128 @@
+{
+  "ageGate": {
+    "title": "BIENVENUE",
+    "textP1": "Pour accéder à ce site web, vous devez avoir l'âge légal pour consommer de l'alcool dans votre pays de résidence.",
+    "textP2": "Avez-vous l'âge légal ?",
+    "confirmBtn": "Oui, j'ai plus de 18 ans",
+    "denyBtn": "Non, je suis mineur",
+    "footerText": "Consommez avec modération. La vente d'alcool aux mineurs est interdite."
+  },
+  "nav": {
+    "liquors": "Liqueurs",
+    "philosophy": "Philosophie",
+    "favors": "Cadeaux & Événements",
+    "contact": "Contactez-nous"
+  },
+  "hero": {
+    "subtitle": "Depuis 1916 • Teramo, Abruzzes",
+    "titlePrefix": "L'Abruzzo est la",
+    "titleHighlight": "saveur.",
+    "descriptionLine1": "L'essence liquide d'une terre âpre et généreuse.",
+    "descriptionLine2": "Tradition, patience et nature capturées dans chaque goutte.",
+    "explore": "Explorer"
+  },
+  "filosofia": {
+    "subtitle": "Notre essence",
+    "title": "L'EXCELLENCE DES RACINES",
+    "quote": "\"Nous produisons des liqueurs à l'ancienne : avec le temps nécessaire pour que la terre libère son secret le plus profond.\"",
+    "features": {
+      "abruzzo": "Abruzzes",
+      "genziana": "Gentiane",
+      "radici": "Racines",
+      "lentezza": "Lenteur",
+      "artigianato": "Artisanat"
+    }
+  },
+  "features": {
+    "shuffler": {
+      "item1Title": "Gentiana Lutea",
+      "item1Desc": "Vieilli en barrique",
+      "item2Title": "Ratafià & Pavot",
+      "item2Desc": "Recettes traditionnelles",
+      "item3Title": "Amaro aux Herbes",
+      "item3Desc": "Sélection botanique",
+      "liqueur": "LIQUEUR"
+    },
+    "typewriter": {
+      "text": "> INITIALISATION...\n> Macération: ACTIVE\n> Arômes: ZÉRO DÉTECTÉ\n> Repos: EN BARRIQUE\n> Filtration: ARTISANALE\n> STATUT: PRÊT"
+    },
+    "scheduler": {
+      "days": ["D", "L", "M", "M", "J", "V", "S"],
+      "bookDate": "Réserver Date"
+    },
+    "cards": {
+      "catalog": "Catalogue",
+      "artisanLiqueurs": "Liqueurs Artisanales",
+      "artisanDesc": "Recettes typiques des Abruzzes produites en petits lots. Gentiane, Ratafià, Réglisse, Pavot et Amaro.",
+      "protocol": "Protocole",
+      "zeroArtifacts": "Zéro Artifices",
+      "zeroDesc": "Macération lente des plantes, repos en fûts de chêne et filtration naturelle. Aucun arôme ajouté.",
+      "events": "Événements",
+      "customFavors": "Cadeaux Sur Mesure",
+      "customDesc": "Véritable personnalisation pour les mariages. Bouteilles, étiquettes et emballages adaptés à votre événement."
+    }
+  },
+  "protocollo": {
+    "subtitle": "La Méthode",
+    "title": "L'ÉTHIQUE DE TRAITEMENT",
+    "step1": {
+      "title": "Sélection Naturelle",
+      "desc": "Recherche méticuleuse des meilleures herbes et racines dans le Parc National du Gran Sasso. La Gentiana Lutea, les baies de genièvre et botaniques sauvages sont sélectionnées et récoltées à la main dans le plein respect des cycles saisonniers, garantissant la pureté absolue.",
+      "tag": "Récolte Manuelle"
+    },
+    "step2": {
+      "title": "Extraction à Froid",
+      "desc": "Le cœur de notre processus artisanal : aucun forçage thermique ou chimique. Nous appliquons exclusivement la technique de macération à froid, une infusion lente de plus de 40 jours pour extraire en douceur l'âme aromatique et les propriétés naturelles.",
+      "tag": "Processus Lent"
+    },
+    "step3": {
+      "title": "Équilibre & Repos",
+      "desc": "Après une filtration strictement artisanale, la liqueur repose dans d'anciennes barriques de chêne. Ce vieillissement confère douceur, stabilise la saveur dans le temps et donne cette rondeur et élégance typiques de la tradition des Abruzzes.",
+      "tag": "Vieillissement Chêne"
+    }
+  },
+  "prodotti": {
+    "subtitle": "Le Catalogue",
+    "title": "NOS LIQUEURS",
+    "desc": "Du Trebbiano d'Abruzzes combiné à la racine de Gentiane Lutea, à la douceur du Ratafià. Chaque bouteille renferme l'histoire de notre territoire.",
+    "items": {
+      "item1": "Gentiane Barrique",
+      "item2": "Ratafià Traditionnel",
+      "item3": "Liqueur de Réglisse"
+    },
+    "cta": "Télécharger le Catalogue Complet"
+  },
+  "bomboniere": {
+    "badge": "Cadeaux & Événements",
+    "title1": "Un souvenir",
+    "title2": "hors du temps.",
+    "desc": "Oubliez les cadeaux impersonnels habituels. Créez un véritable voyage sensoriel pour vos invités, avec des emballages et formats entièrement adaptés à votre événement.",
+    "features": [
+      "Large choix de mini formats (60ml, 100ml, 200ml)",
+      "Design de formes exclusives (carré, ovale, boule plate)",
+      "Étiquettes, tags et accessoires coordonnés au thème de l'événement",
+      "Liqueur 100% artisanale : zéro extrait artificiel"
+    ],
+    "cta": "Demander le Catalogue Mariage"
+  },
+  "contatti": {
+    "title": "Contactez-nous",
+    "workshop": "Laboratoire",
+    "workshopAddr1": "Frazione Garrano Alto, 16",
+    "workshopAddr2": "64100 Teramo (TE) – Italie",
+    "phoneLabel": "Téléphone",
+    "emailLabel": "E-mail",
+    "hoursLabel": "Heures de Vente Directe",
+    "hoursDays": "Lundi – Vendredi"
+  },
+  "footer": {
+    "desc": "Liqueurs traditionnelles des Abruzzes fabriquées artisanalement à Garrano Alto, dans le Parc National du Gran Sasso et Monti della Laga.",
+    "online": "Système : En Ligne",
+    "explore": "Explorer",
+    "network": "Réseau",
+    "copyright": "© {{year}} DE NARDIS MARIANNA. TVA 01722800677. REA 147252.",
+    "privacy": "Politique de confidentialité",
+    "cookie": "Cookie",
+    "warning": "Consommez avec modération. <br class=\"md:hidden\" /> La vente d'alcool aux mineurs est interdite."
+  }
+}

@@ -1,11 +1,13 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useTranslation } from 'react-i18next';
 import bottleShot from '../assets/liquor_bottle_shot.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Prodotti() {
+  const { t } = useTranslation();
   const sectionRef = useRef(null);
 
   useEffect(() => {
@@ -40,30 +42,29 @@ export default function Prodotti() {
       <div className="flex flex-col md:flex-row min-h-screen">
         {/* Text Content */}
         <div className="flex-1 flex flex-col justify-center px-8 md:px-16 lg:px-24 py-20 bg-moss text-cream">
-          <h4 className="prod-reveal font-data text-cream/40 text-[10px] uppercase tracking-[0.4em] mb-4">Il Catalogo</h4>
-          <h2 className="prod-reveal font-drama text-4xl md:text-6xl mb-8 tracking-tighter">I NOSTRI LIQUORI</h2>
+          <h4 className="prod-reveal font-data text-cream/40 text-[10px] uppercase tracking-[0.4em] mb-4">{t('prodotti.subtitle')}</h4>
+          <h2 className="prod-reveal font-drama text-4xl md:text-6xl mb-8 tracking-tighter">{t('prodotti.title')}</h2>
           <p className="prod-reveal text-cream/60 font-light text-lg mb-12 max-w-lg leading-relaxed">
-            Dal Trebbiano d'Abruzzo unito alla radice di Genziana Lutea, fino alla morbidezza della Ratafià. 
-            Ogni bottiglia racchiude la storia del nostro territorio.
+            {t('prodotti.desc')}
           </p>
           
           <ul className="prod-reveal space-y-6 mb-16">
             <li className="flex items-center gap-4 group cursor-pointer">
               <span className="font-data text-clay/50 text-xs">01</span>
-              <span className="font-drama text-2xl group-hover:translate-x-4 transition-transform duration-500 group-hover:text-clay">Genziana Barrique</span>
+              <span className="font-drama text-2xl group-hover:translate-x-4 transition-transform duration-500 group-hover:text-clay">{t('prodotti.items.item1')}</span>
             </li>
             <li className="flex items-center gap-4 group cursor-pointer border-t border-cream/10 pt-6">
               <span className="font-data text-clay/50 text-xs">02</span>
-              <span className="font-drama text-2xl group-hover:translate-x-4 transition-transform duration-500 group-hover:text-clay">Ratafià Tradizionale</span>
+              <span className="font-drama text-2xl group-hover:translate-x-4 transition-transform duration-500 group-hover:text-clay">{t('prodotti.items.item2')}</span>
             </li>
             <li className="flex items-center gap-4 group cursor-pointer border-t border-cream/10 pt-6">
               <span className="font-data text-clay/50 text-xs">03</span>
-              <span className="font-drama text-2xl group-hover:translate-x-4 transition-transform duration-500 group-hover:text-clay">Liquore alla Liquirizia</span>
+              <span className="font-drama text-2xl group-hover:translate-x-4 transition-transform duration-500 group-hover:text-clay">{t('prodotti.items.item3')}</span>
             </li>
           </ul>
 
           <a href="#" className="prod-reveal inline-block border border-cream/20 px-8 py-4 rounded-full font-data text-[10px] uppercase tracking-[0.3em] hover:bg-cream hover:text-moss transition-all duration-500">
-            Scarica il Catalogo Completo
+            {t('prodotti.cta')}
           </a>
         </div>
 
