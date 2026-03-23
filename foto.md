@@ -1,0 +1,68 @@
+
+
+## Contenuto di foto.md
+
+```markdown
+# Fattoria De Nardis – raccolta foto pubbliche con fonti e note d’uso (foto.md)
+
+## Executive summary
+Questa pagina elenca foto **pubblicamente accessibili** (pagine web e CDN) utili a costruire un sito promozionale: prodotti, bottiglie, etichette, packaging bomboniere, ambientazioni e dettagli di produzione (es. botti).  
+Per ogni immagine: URL diretto, descrizione in italiano, pagina sorgente, e nota su copyright/licenza.
+
+⚠️ **Nota diritti d’uso (importante):** nella maggior parte dei casi la licenza esplicita non è indicata. In assenza di una licenza chiara (es. Creative Commons), considerare le immagini come **“tutti i diritti riservati”** e richiedere autorizzazione scritta al titolare (azienda e/o piattaforma che ospita la foto) prima di riutilizzarle sul sito.
+
+---
+
+## Foto da “Artigiani in Vetrina” (galleria pubblica)
+**Pagina sorgente (album):** https://www.artigianinvetrina.com/fattoria-de-nardis-abruzzo/artigianinvetrina/
+
+| Anteprima | Descrizione (IT) | URL immagine diretta | Fonte pagina | Copyright/uso | Suggerimento posizionamento |
+|---|---|---|---|---|---|
+| ![](https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis1-2300x2000.jpg) | Logo/brand “Liquori tipici d’Abruzzo – Fattoria De Nardis”. | https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis1-2300x2000.jpg | Artigiani in Vetrina | Licenza non specificata → usare solo con autorizzazione. | Header sito / favicon derivata / pagina “Chi siamo”. |
+| ![](https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis6-2300x2000.jpg) | Etichetta Genziana con ingredienti e indicazioni (foto frontale su foglie). | https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis6-2300x2000.jpg | Artigiani in Vetrina | Licenza non specificata → usare solo con autorizzazione. | Scheda prodotto “Genziana” + sezione “Qualità/Trasparenza”. |
+| ![](https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis10-2300x2000.jpg) | Quattro bottiglie (Ratafià, Liquirizia, Genziana, Papavero) in ambientazione rustica. | https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis10-2300x2000.jpg | Artigiani in Vetrina | Licenza non specificata → usare solo con autorizzazione. | Hero “Linea liquori” / sezione “I nostri prodotti”. |
+| ![](https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis18-2300x2000.jpg) | Bottiglia Genziana in spiaggia con cesta (foto lifestyle). | https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis18-2300x2000.jpg | Artigiani in Vetrina | Licenza non specificata → usare solo con autorizzazione. | Sezione “Gift / Idee regalo” o banner stagionale. |
+| ![](https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis17-2300x2000.jpg) | Botti (barrique) in locale di affinamento. | https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis17-2300x2000.jpg | Artigiani in Vetrina | Licenza non specificata → usare solo con autorizzazione. | Pagina “Processo” / “Affinamento”. |
+| ![](https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis11-2300x2000.jpg) | Bottiglia Genziana su piano in pietra (focus front label). | https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis11-2300x2000.jpg | Artigiani in Vetrina | Licenza non specificata → usare solo con autorizzazione. | Scheda prodotto “Genziana”. |
+| ![](https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis16-2300x2000.jpg) | Grafica/packshot “Genziana – Invecchiato in barrique di rovere”. | https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis16-2300x2000.jpg | Artigiani in Vetrina | Licenza non specificata → usare solo con autorizzazione. | Sezione “Punti di forza” / card prodotto. |
+| ![](https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis19-2300x2000.jpg) | Bottiglietta Genziana in piazza con edificio storico sullo sfondo (lifestyle). | https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis19-2300x2000.jpg | Artigiani in Vetrina | Licenza non specificata → usare solo con autorizzazione. | Pagina “Territorio” / storytelling. |
+| ![](https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis2-2300x2000.jpg) | Linea completa (più bottiglie) su superficie riflettente. | https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis2-2300x2000.jpg | Artigiani in Vetrina | Licenza non specificata → usare solo con autorizzazione. | Sezione “Gamma prodotti” + carosello. |
+| ![](https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis4-2300x2000.jpg) | Amaro alle Erbe con fico d’India e luci (mood). | https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis4-2300x2000.jpg | Artigiani in Vetrina | Licenza non specificata → usare solo con autorizzazione. | Scheda prodotto “Amaro alle Erbe”. |
+| ![](https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis20-2300x2000.jpg) | Bottigliette “palla” tra margherite (mix gusti). | https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis20-2300x2000.jpg | Artigiani in Vetrina | Licenza non specificata → usare solo con autorizzazione. | Sezione “Bomboniere / Formati mini”. |
+| ![](https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis8-2300x2000.jpg) | Mini bottiglie “palla” (Ratafià, Genziana, Papavero, Liquirizia) in ambientazione rustica. | https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis8-2300x2000.jpg | Artigiani in Vetrina | Licenza non specificata → usare solo con autorizzazione. | Pagina “Bomboniere” (hero/above the fold). |
+| ![](https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis12-2300x2000.jpg) | Ratafià con dolci tradizionali (abbinamento). | https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis12-2300x2000.jpg | Artigiani in Vetrina | Licenza non specificata → usare solo con autorizzazione. | Scheda Ratafià + sezione “Abbinamenti”. |
+| ![](https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis.jpg) | Bottiglietta “palla” Genziana con cartellino (close-up). | https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis.jpg | Artigiani in Vetrina | Licenza non specificata → usare solo con autorizzazione. | Sezione “Regali” / microdettagli. |
+| ![](https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis21-2300x2000.jpg) | Bottiglietta “palla” Ratafià in spiaggia (lifestyle). | https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis21-2300x2000.jpg | Artigiani in Vetrina | Licenza non specificata → usare solo con autorizzazione. | Campagna estiva / social wall. |
+
+---
+
+## Foto da “Matrimonio.com” (scheda fornitore + foto utenti)
+**Pagina sorgente:** https://www.matrimonio.com/bomboniere/fattoria-de-nardis--e301785
+
+| Anteprima | Descrizione (IT) | URL immagine diretta | Fonte pagina | Copyright/uso | Suggerimento posizionamento |
+|---|---|---|---|---|---|
+| ![](https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpg/bott-20cl-piatta_2_301785-164681828349163.jpeg) | Bomboniera “palla piatta” confezionata (focus dettaglio). | https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpg/bott-20cl-piatta_2_301785-164681828349163.jpeg | Matrimonio.com | Licenza non specificata → richiedere permesso a azienda + piattaforma. | Hero pagina “Bomboniere”. |
+| ![](https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpg/01ftx8d3zs3301nm1ckn8t3de7_2_301785-164681828329943.jpeg) | Bottiglia “palla” confezionata (stile bianco). | https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpg/01ftx8d3zs3301nm1ckn8t3de7_2_301785-164681828329943.jpeg | Matrimonio.com | Licenza non specificata → richiedere permesso. | Sezione “Stili e colori”. |
+| ![](https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpg/01fwhc5dxn2fy9bw5cthe3akmg_2_301785-164681828453281.jpeg) | Mini bottiglia con tag “Amaro alle Erbe”. | https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpg/01fwhc5dxn2fy9bw5cthe3akmg_2_301785-164681828453281.jpeg | Matrimonio.com | Licenza non specificata → richiedere permesso. | Scheda prodotto “Amaro alle Erbe” (box “eventi”). |
+| ![](https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpg/liquoridenardis_2_301785-164682502958163.jpeg) | Linea liquori (Genziana, Amaro, Ratafià, Papavero, Liquirizia + altro). | https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpg/liquoridenardis_2_301785-164682502958163.jpeg | Matrimonio.com | Licenza non specificata → richiedere permesso. | Pagina “Liquori” (panoramica). |
+| ![](https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpg/scelti-da-voi_2_301785-164682503778875.jpeg) | Mix mini bottiglie con tag personalizzati (setup evento). | https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpg/scelti-da-voi_2_301785-164682503778875.jpeg | Matrimonio.com | Licenza non specificata → richiedere permesso. | Sezione “Scelti da voi / Gallery”. |
+| ![](https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpg/file-1647731454035_2_301785-164773145525682.jpeg) | Mini bottiglie in fila (diversi colori). | https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpg/file-1647731454035_2_301785-164773145525682.jpeg | Matrimonio.com | Licenza non specificata → richiedere permesso. | Sezione “Formati piccoli”. |
+| ![](https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpg/file-1647731454630_2_301785-164773145661590.jpeg) | Tre bottiglie (diverse forme) su sfondo bianco. | https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpg/file-1647731454630_2_301785-164773145661590.jpeg | Matrimonio.com | Licenza non specificata → richiedere permesso. | Pagina “Bomboniere” (galleria forme). |
+| ![](https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpeg/b5ee9706-5086-4750-a52a-e55902be1598_2_301785-166403686476129.jpeg) | Lotto bomboniere pronte (molte bottiglie palla). | https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpeg/b5ee9706-5086-4750-a52a-e55902be1598_2_301785-166403686476129.jpeg | Matrimonio.com | Licenza non specificata → richiedere permesso. | Pagina “Processo” (capacità e cura artigianale). |
+| ![](https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpeg/0d97685b-a220-4cea-b713-9da8a4cc7110_2_301785-166403686225633.jpeg) | Bottiglie sottili con tag personalizzati (nomi sposi). | https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpeg/0d97685b-a220-4cea-b713-9da8a4cc7110_2_301785-166403686225633.jpeg | Matrimonio.com | Licenza non specificata → richiedere permesso. | Sezione “Personalizzazione”. |
+| ![](https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpeg/04845177-eaea-4f58-9ee2-136b61274c6f_2_301785-166403686657852.jpeg) | Bomboniere con sacchetto (stile rustico). | https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpeg/04845177-eaea-4f58-9ee2-136b61274c6f_2_301785-166403686657852.jpeg | Matrimonio.com | Licenza non specificata → richiedere permesso. | Pagina “Eventi” (stili). |
+| ![](https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpeg/11b63b5f-33ca-4f56-b021-87eff4111845_2_301785-168970079744554.jpeg) | Bomboniere quadre e bottiglie chiare (mix formati). | https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpeg/11b63b5f-33ca-4f56-b021-87eff4111845_2_301785-168970079744554.jpeg | Matrimonio.com | Licenza non specificata → richiedere permesso. | Sezione “Esempi reali”. |
+| ![](https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpeg/img-5135_2_301785-168970097682034.jpeg) | Dettaglio bomboniere confezionate (close-up). | https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpeg/img-5135_2_301785-168970097682034.jpeg | Matrimonio.com | Licenza non specificata → richiedere permesso. | Pattern/texture background (se autorizzato). |
+| ![](https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpeg/img-5423_2_301785-172226588485843.jpeg) | Bottiglia con incisione personalizzata (data e nomi). | https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpeg/img-5423_2_301785-172226588485843.jpeg | Matrimonio.com | Licenza non specificata → richiedere permesso. | Sezione “Personalizzazioni premium”. |
+| ![](https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpeg/img-2556_2_301785-174178288328896.jpeg) | Vetrina/angolo esposizione con logo in cornice. | https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpeg/img-2556_2_301785-174178288328896.jpeg | Matrimonio.com | Licenza non specificata → richiedere permesso. | Home (sezione “Gallery” + “Brand”). |
+| ![](https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpeg/img-3339_2_301785-174465020644301.jpeg) | Bomboniera con fiore (palette rosa). | https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpeg/img-3339_2_301785-174465020644301.jpeg | Matrimonio.com | Licenza non specificata → richiedere permesso. | Sezione “Stili: romantico”. |
+| ![](https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpeg/img-3314_2_301785-174465020830654.jpeg) | Bomboniera con nastro lilla/verde (palette mista). | https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpeg/img-3314_2_301785-174465020830654.jpeg | Matrimonio.com | Licenza non specificata → richiedere permesso. | Sezione “Stili: colore e coordinati”. |
+
+---
+
+## Suggerimenti operativi (per web designer / SEO tecnico)
+- Salvare immagini in **WebP** (80–85% quality) e generare almeno 3 taglie: 480px, 960px, 1600px.
+- Rinominare file con pattern SEO: `genziana-fattoria-de-nardis-50cl-etichetta.webp`, `bomboniera-liquore-personalizzata-200ml.webp`, ecc.
+- Inserire **alt text descrittivi** (es. “Bottiglia di Genziana artigianale – Fattoria De Nardis”).
+- Evitare hotlinking se non espressamente autorizzato: preferire **download + hosting proprio** dopo autorizzazione.
+

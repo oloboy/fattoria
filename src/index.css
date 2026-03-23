@@ -1,0 +1,298 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── CSS Custom Properties ───────────────────────────────────── */
+:root {
+  --moss:       #1A241E;
+  --moss-mid:   #2E4036;
+  --clay:       #9C442D;
+  --cream:      #F2F0E9;
+  --charcoal:   #1A1A1A;
+  --moss-light: #3d5548;
+  --clay-dark:  #7D3624;
+}
+
+/* ── Base Reset ──────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--charcoal);
+  font-family: 'Plus Jakarta Sans', 'Outfit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* ── Noise Overlay ───────────────────────────────────────────── */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  opacity: 0.5;
+}
+
+/* ── Typography ──────────────────────────────────────────────── */
+.font-drama {
+  /* Cinematic title font styling */
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.font-data {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* ── Scrollbar ───────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--cream); }
+::-webkit-scrollbar-thumb { background: var(--moss); border-radius: 3px; }
+
+/* ── Magnetic Button ─────────────────────────────────────────── */
+.btn-magnetic {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-magnetic:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 32px rgba(46, 64, 54, 0.25);
+}
+
+.btn-magnetic .btn-fill {
+  position: absolute;
+  inset: 0;
+  background: var(--clay);
+  transform: translateY(100%);
+  transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  border-radius: inherit;
+}
+
+.btn-magnetic:hover .btn-fill {
+  transform: translateY(0%);
+}
+
+/* ── Interactive Link ────────────────────────────────────────── */
+.link-hover {
+  transition: transform 0.2s ease, color 0.2s ease;
+  display: inline-block;
+}
+.link-hover:hover {
+  transform: translateY(-1px);
+  color: var(--clay);
+}
+
+/* ── Section reveal (pre-animation) ─────────────────────────── */
+.reveal-up {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+/* ── Pulsing dot ─────────────────────────────────────────────── */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(1.4); }
+}
+.pulse-dot {
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+/* ── Typewriter cursor ───────────────────────────────────────── */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+.cursor-blink {
+  display: inline-block;
+  width: 2px;
+  height: 1.1em;
+  background: var(--clay);
+  animation: blink 1s step-end infinite;
+  vertical-align: text-bottom;
+  margin-left: 2px;
+}
+
+/* ── Card elastic bounce ─────────────────────────────────────── */
+@keyframes elastic-in {
+  0%   { transform: translateY(20px); opacity: 0; }
+  60%  { transform: translateY(-8px); opacity: 1; }
+  80%  { transform: translateY(4px); }
+  100% { transform: translateY(0); }
+}
+.elastic-in {
+  animation: elastic-in 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+/* ── SVG scanner line ────────────────────────────────────────── */
+@keyframes scan-line {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(80px); }
+  100% { transform: translateY(0px); }
+}
+.scan-line {
+  animation: scan-line 3s ease-in-out infinite;
+}
+
+/* ── Waveform ECG ────────────────────────────────────────────── */
+@keyframes ecg-stroke {
+  0%   { stroke-dashoffset: 400; }
+  100% { stroke-dashoffset: 0; }
+}
+.ecg-path {
+  stroke-dasharray: 400;
+  animation: ecg-stroke 3s linear infinite;
+}
+
+/* ── Rotating gear ───────────────────────────────────────────── */
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.spin-slow {
+  animation: spin-slow 20s linear infinite;
+  transform-origin: center;
+}
+.spin-slow-rev {
+  animation: spin-slow 14s linear infinite reverse;
+  transform-origin: center;
+}
+
+/* ── Float animation ─────────────────────────────────────────── */
+@keyframes float-gentle {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-8px); }
+}
+.float-gentle {
+  animation: float-gentle 4s ease-in-out infinite;
+}
+
+/* ── Sticky stack card ───────────────────────────────────────── */
+.protocol-card {
+  position: relative;
+  transition: transform 0.4s ease, filter 0.4s ease, opacity 0.4s ease;
+}
+
+@media (min-width: 768px) {
+  .protocol-card {
+    position: sticky;
+    top: 80px;
+  }
+}
+
+/* ── Glass card ──────────────────────────────────────────────── */
+.glass-card {
+  background: rgba(242, 240, 233, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(46, 64, 54, 0.12);
+}
+
+/* ── Gradient overlays ───────────────────────────────────────── */
+.hero-overlay {
+  background: linear-gradient(
+    to top,
+    rgba(26, 26, 26, 0.92) 0%,
+    rgba(46, 64, 54, 0.70) 40%,
+    rgba(46, 64, 54, 0.30) 70%,
+    transparent 100%
+  );
+}
+
+.hero-overlay-center {
+  background: radial-gradient(
+    circle at center,
+    rgba(26, 26, 26, 0.4) 0%,
+    rgba(26, 26, 26, 0.8) 100%
+  );
+}
+
+/* ── Product card hover ──────────────────────────────────────── */
+.product-card {
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              box-shadow 0.3s ease;
+}
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(46, 64, 54, 0.2);
+}
+
+/* ── Image zoom on hover ─────────────────────────────────────── */
+.img-zoom {
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.product-card:hover .img-zoom {
+  transform: scale(1.06);
+}
+
+/* ── Nav pill ────────────────────────────────────────────────── */
+.nav-pill {
+  transition: background 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
+}
+.nav-pill.scrolled {
+  background: rgba(242, 240, 233, 0.85);
+  backdrop-filter: blur(20px);
+  border-color: rgba(46, 64, 54, 0.15);
+  box-shadow: 0 4px 30px rgba(26, 26, 26, 0.12);
+}
+
+/* ── Shuffler stack ──────────────────────────────────────────── */
+.shuffler-item {
+  position: absolute;
+  width: 100%;
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1),
+              opacity 0.4s ease;
+}
+
+/* ── Scheduler grid ──────────────────────────────────────────── */
+.scheduler-day {
+  transition: background 0.25s ease, transform 0.2s ease;
+  cursor: default;
+}
+.scheduler-day.active {
+  background: var(--clay);
+  color: white;
+  transform: scale(0.95);
+}
+
+/* ── Responsive utilities ────────────────────────────────────── */
+@media (max-width: 768px) {
+  .hero-title-big { font-size: clamp(3rem, 12vw, 6rem); }
+  .hero-title-serif { font-size: clamp(4rem, 16vw, 8rem); }
+}
+
+/* ── Age gate ────────────────────────────────────────────────── */
+.age-gate {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  background: var(--charcoal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+.age-gate.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
