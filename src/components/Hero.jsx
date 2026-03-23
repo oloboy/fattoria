@@ -28,7 +28,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section ref={containerRef} className="relative h-screen w-full flex flex-col justify-center items-center text-center overflow-hidden">
+    <section ref={containerRef} className="relative h-screen w-full flex flex-col justify-center items-center text-center overflow-hidden pt-24">
       {/* Background with Zoom Effect */}
       <div className="absolute inset-0 z-0">
         <img 
