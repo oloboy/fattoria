@@ -39,10 +39,12 @@ export default function Footer() {
 
       <div className="max-w-7xl mx-auto pt-8 border-t border-cream/10 flex flex-col md:flex-row justify-between items-center gap-6 text-xs md:text-sm text-cream/40 font-sans font-medium">
         <p>© {new Date().getFullYear()} DE NARDIS MARIANNA. P.IVA 01722800677. REA 147252.</p>
-        <div className="flex flex-wrap items-center gap-6">
+        <div className="flex flex-wrap items-center justify-center md:justify-end gap-x-6 gap-y-2 text-center md:text-right">
           <span className="hover:text-cream/80 cursor-pointer transition-colors">Privacy Policy</span>
           <span className="hover:text-cream/80 cursor-pointer transition-colors">Cookie</span>
-          <span className="text-clay/80 font-bold uppercase tracking-widest text-[10px]">Bevi responsabilmente.</span>
+          <span className="text-clay/80 font-bold uppercase tracking-widest text-[10px] w-full md:w-auto mt-2 md:mt-0">
+            Bevi responsabilmente. <br className="md:hidden" /> La vendita di alcolici è vietata ai minori di 18 anni.
+          </span>
         </div>
       </div>
     </footer>

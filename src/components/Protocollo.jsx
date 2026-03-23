@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import estrazioneImg from '../assets/estrazione.jpg';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -17,7 +18,7 @@ const steps = [
     title: 'Estrazione Fredda',
     desc: 'Il cuore del nostro processo artigianale: nessuna forzatura termica o chimica. Applichiamo esclusivamente la tecnica della macerazione a freddo, un\'infusione lenta e prolungata che dura oltre 40 giorni per estrarre in modo non invasivo l\'anima aromatica e le proprietà naturali essenziali.',
     tag: 'Processo Lento',
-    img: 'https://images.unsplash.com/photo-1555196301-8ef77a641a9a?auto=format&fit=crop&q=80'
+    img: estrazioneImg
   },
   {
     num: '03',

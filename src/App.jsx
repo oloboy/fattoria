@@ -7,10 +7,12 @@ import Prodotti from './components/Prodotti';
 import Bomboniere from './components/Bomboniere';
 import Contatti from './components/Contatti';
 import Footer from './components/Footer';
+import AgeGate from './components/AgeGate';
 
 function App() {
   return (
     <main className="w-full min-h-screen bg-cream selection:bg-clay selection:text-cream">
+      <AgeGate />
       <Navbar />
       <Hero />
       <Filosofia />
