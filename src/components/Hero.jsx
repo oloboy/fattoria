@@ -61,6 +61,12 @@ export default function Hero() {
         </div>
 
         <div className="hero-reveal flex flex-col items-center gap-4 justify-center">
+          <img 
+            src={logo} 
+            alt="Fattoria De Nardis Seal" 
+            className="w-72 md:w-[32rem] lg:w-[40rem] h-auto opacity-80 grayscale invert contrast-[10] brightness-[1.6] mix-blend-screen hover:opacity-100 transition-all duration-1000 transform hover:scale-105"
+          />
+
           <a href="#prodotti" className="group flex flex-col items-center gap-2">
             <div className="w-16 h-16 rounded-full border border-cream/20 flex items-center justify-center group-hover:bg-cream group-hover:text-moss transition-all duration-500">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -69,12 +75,6 @@ export default function Hero() {
             </div>
             <span className="font-data text-[10px] uppercase tracking-widest text-cream/40 group-hover:text-cream transition-colors">{t('hero.explore')}</span>
           </a>
-
-          <img 
-            src={logo} 
-            alt="Fattoria De Nardis Seal" 
-            className="w-72 md:w-[32rem] lg:w-[40rem] h-auto opacity-80 grayscale invert contrast-[10] brightness-[1.6] mix-blend-screen hover:opacity-100 transition-all duration-1000 transform hover:scale-105"
-          />
         </div>
       </div>
     </section>
