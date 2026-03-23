@@ -43,10 +43,15 @@ export default function Bomboniere() {
             ))}
           </div>
           
-          <button className="btn-magnetic bg-clay text-cream px-8 py-4 rounded-[2rem] font-bold text-lg inline-block shadow-xl shadow-clay/20">
+          <a 
+            href="https://www.matrimonio.com/bomboniere/fattoria-de-nardis--e301785" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn-magnetic bg-clay text-cream px-8 py-4 rounded-[2rem] font-bold text-lg inline-block shadow-xl shadow-clay/20 text-center"
+          >
             <span className="relative z-10 transition-colors duration-300">{t('bomboniere.cta')}</span>
             <div className="btn-fill absolute inset-0 bg-white text-moss rounded-[2rem]"></div>
-          </button>
+          </a>
         </div>
 
         {/* Right: Gallery Grid */}
