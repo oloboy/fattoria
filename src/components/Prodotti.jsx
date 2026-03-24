@@ -46,7 +46,12 @@ export default function Prodotti() {
                 key={product.id} 
                 className={`flex items-center gap-4 group cursor-pointer border-t border-cream/5 pt-4 transition-all duration-300 ${hoveredProduct?.id === product.id ? 'translate-x-4' : ''}`}
                 onMouseEnter={() => setHoveredProduct(product)}
-                onMouseLeave={() => setHoveredProduct(null)}
+                onMouseLeave={() => {
+                  if (window.innerWidth >= 768) {
+                    setHoveredProduct(null);
+                  }
+                }}
+                onClick={() => setHoveredProduct(product)}
               >
                 <span className="font-data text-clay/50 text-[10px]">0{idx + 1}</span>
                 <span className={`font-drama text-2xl md:text-3xl transition-colors duration-300 ${hoveredProduct?.id === product.id ? 'text-clay border-l-2 border-clay pl-4' : 'text-cream/90'}`}>

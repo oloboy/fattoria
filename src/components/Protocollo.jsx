@@ -3,6 +3,8 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useTranslation } from 'react-i18next';
 import estrazioneImg from '../assets/estrazione.jpg';
+import selezioneImg from '../assets/genziana.jpg';
+import riposoImg from '../assets/cantina.jpg';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -10,7 +12,7 @@ const stepsData = [
   {
     num: '01',
     key: 'step1',
-    img: 'https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis6-2300x2000.jpg'
+    img: selezioneImg
   },
   {
     num: '02',
@@ -20,7 +22,7 @@ const stepsData = [
   {
     num: '03',
     key: 'step3',
-    img: 'https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis17-2300x2000.jpg'
+    img: riposoImg
   }
 ];
 
