@@ -73,7 +73,14 @@ export default function Prodotti() {
         {/* Detailed Info Card (Visible on Hover) */}
         <div className={`fixed md:absolute inset-0 md:inset-auto md:right-10 md:top-1/2 md:-translate-y-1/2 z-50 pointer-events-none transition-all duration-700 ease-expo ${hoveredProduct ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}>
           {hoveredProduct && (
-            <div className="bg-cream shadow-[0_30px_100px_rgba(0,0,0,0.3)] w-full h-full md:w-[450px] md:h-auto md:rounded-[3rem] p-10 md:p-12 text-moss overflow-y-auto pointer-events-auto border border-moss/5 backdrop-blur-sm">
+            <div 
+              className="bg-cream shadow-[0_30px_100px_rgba(0,0,0,0.3)] w-full h-full md:w-[450px] md:h-auto md:rounded-[3rem] p-10 md:p-12 text-moss overflow-y-auto pointer-events-auto border border-moss/5 backdrop-blur-sm"
+              onClick={() => {
+                if (window.innerWidth < 768) {
+                  setHoveredProduct(null);
+                }
+              }}
+            >
               <div className="mb-8 flex justify-between items-start">
                 <span className="font-data text-clay text-[10px] uppercase tracking-widest">{hoveredProduct.gradazione}</span>
                 <button 

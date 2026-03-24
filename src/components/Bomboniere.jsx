@@ -1,5 +1,6 @@
 import { Gift, CheckCircle2, Star, MapPin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import dettaglioImg from '../assets/bombonierarata.jpg';
 
 export default function Bomboniere() {
   const { t } = useTranslation();
@@ -93,7 +94,7 @@ export default function Bomboniere() {
               <img src="https://cdn0.matrimonio.com/vendor/1785/3_2/960/jpg/bott-20cl-piatta_2_301785-164681828349163.jpeg" className="w-full h-full object-cover" alt="Bomboniera palla piatta" />
             </div>
             <div className="rounded-[2.5rem] overflow-hidden border border-cream/10 bg-moss-light relative aspect-[4/5] shadow-2xl">
-              <img src="https://www.artigianinvetrina.com/wp-content/uploads/2021/02/fattoriadenardis.jpg" className="w-full h-full object-cover" alt="Dettaglio bomboniera" />
+              <img src={dettaglioImg} className="w-full h-full object-cover" alt="Dettaglio bomboniera" />
             </div>
           </div>
         </div>
