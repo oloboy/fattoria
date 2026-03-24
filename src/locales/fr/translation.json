@@ -26,11 +26,26 @@
     "title": "L'EXCELLENCE DE LA NATURE",
     "quote": "\"Nous produisons des liqueurs à l'ancienne : avec le temps nécessaire pour que la terre libère son secret le plus profond.\"",
     "features": {
-      "abruzzo": { "name": "Abruzzes", "desc": "Entre le Gran Sasso et l'Adriatique, nous capturons l'âme d'une terre âpre et généreuse." },
-      "vino": { "name": "Vin", "desc": "Le Trebbiano d'Abruzzes est le cœur battant qui accueille et transforme chaque racine en poésie." },
-      "legno": { "name": "Bois", "desc": "Les barriques de chêne gardent le secret du temps, apportant douceur et noblesse." },
-      "lentezza": { "name": "Lenteur", "desc": "Plus de 40 jours d'infusion à froid. Nous ne forçons pas la nature, nous attendons qu'elle si révèle." },
-      "artigianato": { "name": "Artisanat", "desc": "Chaque bouteille est une pièce unique, scellée à la main en harmonie avec la culture paysanne." }
+      "abruzzo": {
+        "name": "Abruzzes",
+        "desc": "Entre le Gran Sasso et l'Adriatique, nous capturons l'âme d'une terre âpre et généreuse."
+      },
+      "vino": {
+        "name": "Vin",
+        "desc": "Le Trebbiano d'Abruzzes est le cœur battant qui accueille et transforme chaque racine en poésie."
+      },
+      "legno": {
+        "name": "Bois",
+        "desc": "Les barriques de chêne gardent le secret du temps, apportant douceur et noblesse."
+      },
+      "lentezza": {
+        "name": "Lenteur",
+        "desc": "Plus de 40 jours d'infusion à froid. Nous ne forçons pas la nature, nous attendons qu'elle si révèle."
+      },
+      "artigianato": {
+        "name": "Artisanat",
+        "desc": "Chaque bouteille est une pièce unique, scellée à la main en harmonie avec la culture paysanne."
+      }
     }
   },
   "features": {
@@ -209,5 +224,121 @@
     "privacy": "Politique de confidentialité",
     "cookie": "Cookie",
     "warning": "Consommez avec modération. <br class=\"md:hidden\" /> La vente d'alcool aux mineurs est interdite."
+  },
+  "legal": {
+    "privacy": {
+      "title": "Politique de Confidentialité",
+      "updated": "Dernière mise à jour: Mars 2026",
+      "sections": [
+        {
+          "title": "1. Responsable du Traitement",
+          "paragraphs": [
+            "Le Responsable du traitement des données est : <br/><strong>DE NARDIS MARIANNA</strong><br/>Frazione Garrano Alto, 16 – 64100 Teramo (TE) – Italie<br/>TVA : 01722800677 | Email : info@fattoriadenardis.it"
+          ]
+        },
+        {
+          "title": "2. Types de données collectées",
+          "paragraphs": [
+            "Notre site web collecte les types de données personnelles suivants :"
+          ],
+          "list": [
+            "<strong>Données de navigation :</strong> Adresses IP ou noms de domaine des ordinateurs utilisés par les utilisateurs, adresses en notation URI, heure de la demande, etc.",
+            "<strong>Données fournies volontairement :</strong> Nom, email, numéro de téléphone et autres informations fournies en remplissant les formulaires de contact."
+          ]
+        },
+        {
+          "title": "3. Objectif du traitement",
+          "paragraphs": [
+            "Les Données de l'Utilisateur sont collectées pour permettre au Responsable de fournir ses Services, ainsi que pour :"
+          ],
+          "list": [
+            "Gérer les demandes transmises via le site (informations sur les produits, devis d'événements, etc.)",
+            "Respecter les obligations légales.",
+            "Établir des statistiques anonymes d'utilisation du site."
+          ]
+        },
+        {
+          "title": "4. Base Juridique du Traitement",
+          "paragraphs": [
+            "Le Responsable traite les Données Personnelles si l'une des conditions suivantes est remplie :"
+          ],
+          "list": [
+            "L'Utilisateur a consenti pour une ou plusieurs finalités spécifiques;",
+            "Le traitement est nécessaire à l'exécution d'un contrat ou de mesures précontractuelles;",
+            "Le traitement est nécessaire pour respecter une obligation légale."
+          ]
+        },
+        {
+          "title": "5. Méthodes de traitement et de conservation",
+          "paragraphs": [
+            "Le traitement s'effectue au moyen d'outils informatiques, avec des méthodes organisationnelles strictement liées aux finalités indiquées.",
+            "Les Données sont conservées pendant le temps strictement nécessaire à la réalisation des objectifs pour lesquels elles ont été collectées."
+          ]
+        },
+        {
+          "title": "6. Droits de l'Utilisateur",
+          "paragraphs": [
+            "Les Utilisateurs peuvent exercer certains droits. Conformément au RGPD (Règlement UE 2016/679), l'Utilisateur a le droit de :"
+          ],
+          "list": [
+            "Retirer son consentement;",
+            "S'opposer au traitement;",
+            "Accéder à ses Données;",
+            "Demander la rectification;",
+            "Obtenir la limitation du traitement;",
+            "Obtenir l'effacement de ses Données;",
+            "Recevoir ses Données ou les faire transférer (portabilité);",
+            "Déposer une plainte auprès de l'autorité de contrôle."
+          ]
+        },
+        {
+          "title": "",
+          "paragraphs": [
+            "Les demandes peuvent être adressées au Responsable à <strong>info@fattoriadenardis.it</strong>."
+          ]
+        }
+      ]
+    },
+    "cookie": {
+      "title": "Politique relative aux Cookies",
+      "updated": "Dernière mise à jour: Mars 2026",
+      "sections": [
+        {
+          "title": "1. Que sont les Cookies ?",
+          "paragraphs": [
+            "Les Cookies sont de petites portions de code installées dans le navigateur qui assistent le Responsable dans la fourniture du Service."
+          ]
+        },
+        {
+          "title": "2. Cookies techniques et statistiques agrégées",
+          "paragraphs": [
+            "Ce site utilise des cookies pour sauvegarder la session de l'Utilisateur et pour mémoriser les préférences (ex. langue)."
+          ],
+          "list": [
+            "<strong>Cookies de navigation ou de session :</strong> Ils garantissent la navigation normale sur le site.",
+            "<strong>Cookies de fonctionnalité :</strong> Ils permettent à l'utilisateur de naviguer selon une série de critères sélectionnés."
+          ]
+        },
+        {
+          "title": "3. Services tiers",
+          "paragraphs": [
+            "Certains services tiers peuvent collecter des statistiques agrégées ou utiliser des cookies pour fournir des fonctionnalités (ex. Google Maps, YouTube).",
+            "Pour plus d'informations, il est conseillé de consulter les politiques de confidentialité des services tiers."
+          ]
+        },
+        {
+          "title": "4. Comment gérer les Cookies ?",
+          "paragraphs": [
+            "L'Utilisateur peut gérer les préférences relatives aux Cookies directement dans son navigateur (Chrome, Firefox, Safari, Edge). En désactivant tous les Cookies, le fonctionnement du site peut être compromis."
+          ]
+        },
+        {
+          "title": "5. Références légales",
+          "paragraphs": [
+            "Cette politique a été rédigée conformément au Règlement (UE) 2016/679 (RGPD)."
+          ]
+        }
+      ]
+    }
   }
 }

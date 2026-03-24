@@ -26,11 +26,26 @@
     "title": "THE EXCELLENCE OF NATURE",
     "quote": "\"We produce liqueurs the old-fashioned way: with the time necessary for the earth to release its deepest secret.\"",
     "features": {
-      "abruzzo": { "name": "Abruzzo", "desc": "Between Gran Sasso and the Adriatic, we capture the soul of a harsh and generous land." },
-      "vino": { "name": "Wine", "desc": "Trebbiano d’Abruzzo is the beating heart that welcomes and turns every root into poetry." },
-      "legno": { "name": "Wood", "desc": "Oak barriques guard the secret of time, giving softness and nobility." },
-      "lentezza": { "name": "Slowness", "desc": "Over 40 days of cold infusion. We don't force nature, we wait for it to reveal itself." },
-      "artigianato": { "name": "Craftsmanship", "desc": "Each bottle is a unique piece, hand-sealed in harmony with peasant culture." }
+      "abruzzo": {
+        "name": "Abruzzo",
+        "desc": "Between Gran Sasso and the Adriatic, we capture the soul of a harsh and generous land."
+      },
+      "vino": {
+        "name": "Wine",
+        "desc": "Trebbiano d’Abruzzo is the beating heart that welcomes and turns every root into poetry."
+      },
+      "legno": {
+        "name": "Wood",
+        "desc": "Oak barriques guard the secret of time, giving softness and nobility."
+      },
+      "lentezza": {
+        "name": "Slowness",
+        "desc": "Over 40 days of cold infusion. We don't force nature, we wait for it to reveal itself."
+      },
+      "artigianato": {
+        "name": "Craftsmanship",
+        "desc": "Each bottle is a unique piece, hand-sealed in harmony with peasant culture."
+      }
     }
   },
   "features": {
@@ -47,7 +62,15 @@
       "text": "> INITIALIZING...\n> Maceration: ACTIVE\n> Flavors: ZERO DETECTED\n> Resting: IN BARRIQUE\n> Filtration: ARTISANAL\n> STATUS: READY"
     },
     "scheduler": {
-      "days": ["S", "M", "T", "W", "T", "F", "S"],
+      "days": [
+        "S",
+        "M",
+        "T",
+        "W",
+        "T",
+        "F",
+        "S"
+      ],
       "bookDate": "Book Date"
     },
     "cards": {
@@ -201,5 +224,128 @@
     "privacy": "Privacy Policy",
     "cookie": "Cookie",
     "warning": "Drink responsibly. <br class=\"md:hidden\" /> The sale of alcohol to minors is prohibited."
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "updated": "Last updated: March 2026",
+      "sections": [
+        {
+          "title": "1. Data Controller",
+          "paragraphs": [
+            "The Data Controller is: <br/><strong>DE NARDIS MARIANNA</strong><br/>Frazione Garrano Alto, 16 – 64100 Teramo (TE) – Italy<br/>VAT: 01722800677 | Email: info@fattoriadenardis.it"
+          ]
+        },
+        {
+          "title": "2. Types of Data Collected",
+          "paragraphs": [
+            "Our website collects the following types of personal data:"
+          ],
+          "list": [
+            "<strong>Browsing data:</strong> IP addresses or domain names of the computers used by users, URI notation addresses, time of request, method used to submit the request to the server, size of the file obtained in response, etc.",
+            "<strong>Data provided voluntarily:</strong> Name, email, phone number and other information provided by filling out contact forms or sending requests to our email."
+          ]
+        },
+        {
+          "title": "3. Purpose of Processing",
+          "paragraphs": [
+            "User Data is collected to allow the Controller to provide its Services, as well as for the following purposes:"
+          ],
+          "list": [
+            "Handling requests forwarded through the site (information on products, quotes for event favors, etc.)",
+            "Fulfillment of legal obligations or requests from Authorities.",
+            "Execution of anonymous statistics on site usage."
+          ]
+        },
+        {
+          "title": "4. Legal Basis of Processing",
+          "paragraphs": [
+            "The Controller processes Personal Data relating to the User if one of the following conditions exists:"
+          ],
+          "list": [
+            "The User has given consent for one or more specific purposes;",
+            "Processing is necessary for the performance of a contract with the User and/or for the performance of pre-contractual measures;",
+            "Processing is necessary to comply with a legal obligation to which the Controller is subject."
+          ]
+        },
+        {
+          "title": "5. Processing Methods and Retention",
+          "paragraphs": [
+            "Processing is carried out using IT and/or telematic tools, with organizational methods and with logic strictly related to the purposes indicated.",
+            "Data is processed at the operating offices of the Controller and stored for the time strictly necessary to achieve the purposes for which it was collected, or to fulfill specific regulatory obligations."
+          ]
+        },
+        {
+          "title": "6. User Rights",
+          "paragraphs": [
+            "Users may exercise certain rights regarding Data processed by the Controller. In particular, pursuant to the GDPR (EU Regulation 2016/679), the User has the right to:"
+          ],
+          "list": [
+            "Withdraw consent at any time;",
+            "Object to the processing of their Data;",
+            "Access their Data;",
+            "Verify and seek rectification;",
+            "Obtain the restriction of processing;",
+            "Obtain the erasure or removal of their Personal Data;",
+            "Receive their Data or have it transferred to another controller (portability);",
+            "Lodge a complaint with the competent supervisory authority."
+          ]
+        },
+        {
+          "title": "",
+          "paragraphs": [
+            "Requests to exercise rights can be directed to the Controller at the email address <strong>info@fattoriadenardis.it</strong>."
+          ]
+        }
+      ]
+    },
+    "cookie": {
+      "title": "Cookie Policy",
+      "updated": "Last updated: March 2026",
+      "sections": [
+        {
+          "title": "1. What are Cookies?",
+          "paragraphs": [
+            "Cookies are small portions of code installed within the browser that assist the Controller in providing the Service according to the described purposes. Some of the purposes of cookie installation may also require the User's consent."
+          ]
+        },
+        {
+          "title": "2. Technical and Aggregated Statistics Cookies",
+          "paragraphs": [
+            "This website uses cookies to save the User's session and to perform other activities strictly necessary to operate the site, for example to remember language preferences."
+          ],
+          "list": [
+            "<strong>Browsing or session cookies:</strong> They guarantee the normal navigation and use of the website.",
+            "<strong>Functionality cookies:</strong> They allow the user to navigate according to a set of selected criteria (e.g., language) in order to improve the service provided."
+          ]
+        },
+        {
+          "title": "3. Third-party Services (Statistics, Videos, etc.)",
+          "paragraphs": [
+            "Some third-party analytical or content display services may collect aggregated statistics and may not require User consent, or may be managed directly by third parties.",
+            "For example, the use of Google Maps, YouTube videos, or basic (anonymized) Analytics metrics. For detailed information on cookies released by these services, the User is advised to consult the privacy policies of the listed third-party services."
+          ]
+        },
+        {
+          "title": "4. How to manage or disable Cookies?",
+          "paragraphs": [
+            "In addition to what is stated in this document, the User can manage cookie preferences directly within their browser and prevent – for example – third parties from installing them. It is important to note that by disabling all Cookies, the functioning of this site may be compromised.",
+            "You can find information on how to manage Cookies in the most popular browsers at the following addresses:"
+          ],
+          "list": [
+            "Google Chrome",
+            "Mozilla Firefox",
+            "Apple Safari",
+            "Microsoft Edge"
+          ]
+        },
+        {
+          "title": "5. Legal References",
+          "paragraphs": [
+            "This information is prepared on the basis of multiple legislative systems, including articles 13 and 14 of Regulation (EU) 2016/679 (GDPR)."
+          ]
+        }
+      ]
+    }
   }
 }

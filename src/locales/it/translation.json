@@ -26,11 +26,26 @@
     "title": "L'ECCELLENZA DELLA NATURA",
     "quote": "\"Produciamo liquori come si faceva una volta: con il tempo necessario affinché la terra rilasci il suo segreto più profondo.\"",
     "features": {
-      "abruzzo": { "name": "Abruzzo", "desc": "Tra il Gran Sasso e l’Adriatico, raccogliamo l’anima di una terra aspra e generosa." },
-      "vino": { "name": "Vino", "desc": "Il Trebbiano d’Abruzzo è il cuore pulsante che accoglie e trasforma ogni radice in poesia." },
-      "legno": { "name": "Legno", "desc": "Le barrique di rovere custodiscono il segreto del tempo, donando morbidezza e nobiltà." },
-      "lentezza": { "name": "Lentezza", "desc": "Oltre 40 giorni di infusione a freddo. Non forziamo la natura, aspettiamo che si riveli." },
-      "artigianato": { "name": "Artigianato", "desc": "Ogni bottiglia è un pezzo unico, sigillato a mano in armonia con la cultura contadina." }
+      "abruzzo": {
+        "name": "Abruzzo",
+        "desc": "Tra il Gran Sasso e l’Adriatico, raccogliamo l’anima di una terra aspra e generosa."
+      },
+      "vino": {
+        "name": "Vino",
+        "desc": "Il Trebbiano d’Abruzzo è il cuore pulsante che accoglie e trasforma ogni radice in poesia."
+      },
+      "legno": {
+        "name": "Legno",
+        "desc": "Le barrique di rovere custodiscono il segreto del tempo, donando morbidezza e nobiltà."
+      },
+      "lentezza": {
+        "name": "Lentezza",
+        "desc": "Oltre 40 giorni di infusione a freddo. Non forziamo la natura, aspettiamo che si riveli."
+      },
+      "artigianato": {
+        "name": "Artigianato",
+        "desc": "Ogni bottiglia è un pezzo unico, sigillato a mano in armonia con la cultura contadina."
+      }
     }
   },
   "features": {
@@ -47,7 +62,15 @@
       "text": "> INIZIALIZZAZIONE...\n> Macerazione: ATTIVA\n> Aromi: ZERO RILEVATI\n> Riposo: IN BARRIQUE\n> Filtrazione: ARTIGIANALE\n> STATO: PRONTO"
     },
     "scheduler": {
-      "days": ["D", "L", "M", "M", "G", "V", "S"],
+      "days": [
+        "D",
+        "L",
+        "M",
+        "M",
+        "G",
+        "V",
+        "S"
+      ],
       "bookDate": "Prenota Data"
     },
     "cards": {
@@ -201,5 +224,128 @@
     "privacy": "Privacy Policy",
     "cookie": "Cookie",
     "warning": "Bevi responsabilmente. <br class=\"md:hidden\" /> La vendita di alcolici è vietata ai minori di 18 anni."
+  },
+  "legal": {
+    "privacy": {
+      "title": "Informativa sulla Privacy",
+      "updated": "Ultimo aggiornamento: Marzo 2026",
+      "sections": [
+        {
+          "title": "1. Titolare del Trattamento",
+          "paragraphs": [
+            "Il Titolare del trattamento dei dati è: <br/><strong>DE NARDIS MARIANNA</strong><br/>Frazione Garrano Alto, 16 – 64100 Teramo (TE) – Italia<br/>P.IVA: 01722800677 | Email: info@fattoriadenardis.it"
+          ]
+        },
+        {
+          "title": "2. Tipologia dei dati raccolti",
+          "paragraphs": [
+            "Il nostro sito raccoglie le seguenti tipologie di dati personali:"
+          ],
+          "list": [
+            "<strong>Dati di navigazione:</strong> Gli indirizzi IP o i nomi a dominio dei computer utilizzati dagli utenti, gli indirizzi in notazione URI, l'orario della richiesta, il metodo utilizzato nel sottoporre la richiesta al server, la dimensione del file ottenuto in risposta, ecc.",
+            "<strong>Dati forniti volontariamente:</strong> Nome, email, numero di telefono e altre informazioni fornite compilando moduli di contatto o inviando richieste alla nostra email."
+          ]
+        },
+        {
+          "title": "3. Finalità del trattamento",
+          "paragraphs": [
+            "I Dati dell'Utente sono raccolti per consentire al Titolare di fornire i propri Servizi, nonché per le seguenti finalità:"
+          ],
+          "list": [
+            "Gestione delle richieste inoltrate tramite il sito (informazioni su prodotti, preventivi per bomboniere, ecc.)",
+            "Adempimento di obblighi di legge o richieste dell'Autorità.",
+            "Esecuzione di statistiche anonime sull'utilizzo del sito."
+          ]
+        },
+        {
+          "title": "4. Base Giuridica del trattamento",
+          "paragraphs": [
+            "Il Titolare tratta Dati Personali relativi all'Utente in caso sussista una delle seguenti condizioni:"
+          ],
+          "list": [
+            "L'Utente ha prestato il consenso per una o più finalità specifiche;",
+            "Il trattamento è necessario all'esecuzione di un contratto con l'Utente e/o all'esecuzione di misure precontrattuali (es. richiesta info o preventivi);",
+            "Il trattamento è necessario per adempiere un obbligo legale al quale è soggetto il Titolare."
+          ]
+        },
+        {
+          "title": "5. Modalità di trattamento e conservazione",
+          "paragraphs": [
+            "Il trattamento viene effettuato mediante strumenti informatici e/o telematici, con modalità organizzative e con logiche strettamente correlate alle finalità indicate.",
+            "I Dati sono trattati presso le sedi operative del Titolare e conservati per il tempo strettamente necessario al conseguimento delle finalità per cui sono stati raccolti, o per adempiere a specifici obblighi normativi."
+          ]
+        },
+        {
+          "title": "6. Diritti dell'interessato",
+          "paragraphs": [
+            "Gli Utenti possono esercitare determinati diritti con riferimento ai Dati trattati dal Titolare. In particolare, ai sensi del GDPR (Regolamento UE 2016/679), l'Utente ha il diritto di:"
+          ],
+          "list": [
+            "Revocare il consenso in ogni momento;",
+            "Opporsi al trattamento dei propri Dati;",
+            "Accedere ai propri Dati;",
+            "Verificare e chiedere la rettificazione;",
+            "Ottenere la limitazione del trattamento;",
+            "Ottenere la cancellazione o rimozione dei propri Dati Personali;",
+            "Ricevere i propri Dati o farli trasferire ad altro titolare (portabilità);",
+            "Proporre reclamo all'autorità di controllo competente (Garante della Privacy)."
+          ]
+        },
+        {
+          "title": "",
+          "paragraphs": [
+            "Le richieste di esercizio dei diritti possono essere indirizzate al Titolare all'indirizzo email <strong>info@fattoriadenardis.it</strong>."
+          ]
+        }
+      ]
+    },
+    "cookie": {
+      "title": "Cookie Policy",
+      "updated": "Ultimo aggiornamento: Marzo 2026",
+      "sections": [
+        {
+          "title": "1. Cosa sono i Cookie?",
+          "paragraphs": [
+            "I Cookie sono costituiti da porzioni di codice installate all'interno del browser che assistono il Titolare nell'erogazione del Servizio in base alle finalità descritte. Alcune delle finalità di installazione dei Cookie potrebbero, inoltre, necessitare del consenso dell'Utente."
+          ]
+        },
+        {
+          "title": "2. Cookie tecnici e di statistica aggregata",
+          "paragraphs": [
+            "Questo sito web utilizza cookie per salvare la sessione dell'Utente e per svolgere altre attività strettamente necessarie al funzionamento dello stesso, ad esempio per ricordare le preferenze di lingua (se applicabile)."
+          ],
+          "list": [
+            "<strong>Cookie di navigazione o sessione:</strong> Garantiscono la normale navigazione e fruizione del sito web.",
+            "<strong>Cookie di funzionalità:</strong> Permettono all'utente la navigazione in funzione di una serie di criteri selezionati (es. la lingua) al fine di migliorare il servizio reso."
+          ]
+        },
+        {
+          "title": "3. Servizi di terze parti (Statistica, Video, ecc.)",
+          "paragraphs": [
+            "Alcuni dei servizi analitici o di visualizzazione contenuti di terze parti potrebbero raccogliere statistiche in forma aggregata e potrebbero non richiedere il consenso dell'Utente o potrebbero essere gestiti direttamente da terzi – in aggiunta a quanto specificato ed anche all'insaputa del Titolare.",
+            "Ad esempio, l'uso di Google Maps, video YouTube, o metriche di Analytics basiche (anonimizzate). Per informazioni dettagliate ai cookie rilasciati da questi servizi, si consiglia l'Utente di consultare le privacy policy dei servizi terzi elencati."
+          ]
+        },
+        {
+          "title": "4. Come gestire o disabilitare i Cookie?",
+          "paragraphs": [
+            "In aggiunta a quanto indicato in questo documento, l'Utente può gestire le preferenze relative ai Cookie direttamente all'interno del proprio browser ed impedire – ad esempio – che terze parti possano installarne. Tramite le preferenze del browser è inoltre possibile eliminare i Cookie installati in passato. È importante notare che disabilitando tutti i Cookie, il funzionamento di questo sito potrebbe essere compromesso.",
+            "È possibile trovare informazioni su come gestire i Cookie nei browser più diffusi ai seguenti indirizzi:"
+          ],
+          "list": [
+            "Google Chrome",
+            "Mozilla Firefox",
+            "Apple Safari",
+            "Microsoft Edge"
+          ]
+        },
+        {
+          "title": "5. Riferimenti Legali",
+          "paragraphs": [
+            "La presente informativa è redatta sulla base di molteplici ordinamenti legislativi, incluso gli artt. 13 e 14 del Regolamento (UE) 2016/679 (GDPR)."
+          ]
+        }
+      ]
+    }
   }
 }
