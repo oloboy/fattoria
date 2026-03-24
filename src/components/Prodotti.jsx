@@ -45,7 +45,11 @@ export default function Prodotti() {
               <li 
                 key={product.id} 
                 className={`flex items-center gap-4 group cursor-pointer border-t border-cream/5 pt-4 transition-all duration-300 ${hoveredProduct?.id === product.id ? 'translate-x-4' : ''}`}
-                onMouseEnter={() => setHoveredProduct(product)}
+                onMouseEnter={() => {
+                  if (window.innerWidth >= 768) {
+                    setHoveredProduct(product);
+                  }
+                }}
                 onMouseLeave={() => {
                   if (window.innerWidth >= 768) {
                     setHoveredProduct(null);
